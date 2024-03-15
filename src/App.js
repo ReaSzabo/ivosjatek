@@ -4,11 +4,11 @@ import OtherGames from "./OtherGames.jsx";
 import Game from "./Game.jsx";
 import Contact from "./Contact.jsx";
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Menu></Menu>,
