@@ -11,7 +11,7 @@
 
 .MenuContainer {
 
-    background: url('./backg.jpg');
+    background: url('../assets/images/menu/backg.jpg');
     background-size: cover;
 
 }
