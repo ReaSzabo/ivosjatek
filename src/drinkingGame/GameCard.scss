@@ -1,0 +1,22 @@
+.GameCard {
+  position: relative;
+  width: 334px;
+  height: 500px;
+  border: 2px solid rgb(255, 241, 255);
+  box-shadow: rgb(197, 0, 251) 0px 7px 29px 0px;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+  color: rgb(2, 164, 209);
+  font-family: "Montserrat", sans-serif;
+  font-variant-caps: all-small-caps;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

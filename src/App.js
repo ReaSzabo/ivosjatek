@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Menu from "./menu/Menu.jsx";
 import OtherGames from "./otherGames/OtherGames.jsx";
 import Game from "./drinkingGame/Game.jsx";

@@ -63,25 +63,29 @@ class OtherGame extends Component {
   render() {
     return (
       <container className="other-game-container">
-        <div className="description">
-          <h1 className="description__title">{this.props.title}</h1>
-          <h2 className="description__subtitle description__subtitle--red">
-            {this.props.subtitle}
-          </h2>
-          <p className="description__text">{this.props.text}</p>
-          <button type="description__submit">
-            <span class="text"> back </span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-          </button>
-        </div>
+        <div className="shadow-box">
+          <div className="description">
+            <h1 className="description__title">{this.props.title}</h1>
+            <h2 className="description__subtitle description__subtitle--red">
+              {this.props.subtitle}
+            </h2>
+            <p className="description__text">{this.props.text}</p>
+            <a href="/#/OtherGames">
+              <button type="description__submit">
+                <span class="text"> back </span>
+                <span class="blob"></span>
+                <span class="blob"></span>
+                <span class="blob"></span>
+                <span class="blob"></span>
+              </button>
+            </a>
+          </div>
 
-        <div
-          className="sectionFirst"
-          style={{ backgroundImage: `url('${this.getPic()}')` }}
-        ></div>
+          <div
+            className="sectionFirst"
+            style={{ backgroundImage: `url('${this.getPic()}')` }}
+          ></div>
+        </div>
       </container>
     );
   }

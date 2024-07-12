@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./OtherGames.css";
+import "./OtherGames.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -32,6 +32,15 @@ class OtherGames extends Component {
   render() {
     return (
       <div className="background">
+        <a href="/#/#Menu">
+          <button type="description__submit">
+            <span class="text"> back </span>
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob"></span>
+            <span class="blob"></span>
+          </button>
+        </a>
         <div className="container">
           <Swiper
             effect={"coverflow"}
@@ -52,91 +61,109 @@ class OtherGames extends Component {
             <SwiperSlide>
               <a href="#/OtherGames/KingsCup">
                 <img src={slide_image_1} alt="slide_image" />
+                <div className="caption"> Kings Cup </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/Thumper">
                 <img src={slide_image_2} alt="slide_image" />
+                <div className="caption"> Thumper </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/UnflinchingFace">
                 <img src={slide_image_3} alt="slide_image" />
+                <div className="caption"> Unflinching Face </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/FlipCup">
                 <img src={slide_image_4} alt="slide_image" />
+                <div className="caption"> Flip Cup </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/Bumm">
                 <img src={slide_image_5} alt="slide_image" />
+                <div className="caption"> Bumm </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/MostLikely">
                 <img src={slide_image_6} alt="slide_image" />
+                <div className="caption"> Most Likely </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/TakeTheBag">
                 <img src={slide_image_7} alt="slide_image" />
+                <div className="caption"> Take The Bag </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/Jenga">
                 <img src={slide_image_8} alt="slide_image" />
+                <div className="caption"> Jenga </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/StuckTogether">
                 <img src={slide_image_9} alt="slide_image" />
+                <div className="caption"> Stuck Together </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/INeverHaveEver">
                 <img src={slide_image_10} alt="slide_image" />
+                <div className="caption"> I Never Have Ever </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/BeerPong">
                 <img src={slide_image_11} alt="slide_image" />
+                <div className="caption"> Beer Pong </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/TRex">
                 <img src={slide_image_12} alt="slide_image" />
+                <div className="caption"> T-Rex </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/DeathCircle">
                 <img src={slide_image_13} alt="slide_image" />
+                <div className="caption"> Death Circle </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/DrawACardAndHope">
                 <img src={slide_image_14} alt="slide_image" />
+                <div className="caption"> Draw A Card And Hope </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/Djibouti">
                 <img src={slide_image_15} alt="slide_image" />
+                <div className="caption"> Djibouti </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/OneTrueOneFalse">
                 <img src={slide_image_16} alt="slide_image" />
+                <div className="caption"> One True, One False </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/Boardgames">
                 <img src={slide_image_17} alt="slide_image" />
+                <div className="caption"> Boardgames </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/RussianRoulette">
                 <img src={slide_image_18} alt="slide_image" />
+                <div className="caption"> Russian Roulette </div>
               </a>
             </SwiperSlide>
 

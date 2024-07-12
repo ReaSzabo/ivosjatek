@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./Menu.css";
+import "./Menu.scss";
 import Card from "./Card.jsx";
 import cat from "../assets/images/menu/cat.png";
 import catRemoved from "../assets/images/menu/catRemoved.png";
