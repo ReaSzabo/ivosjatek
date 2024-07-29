@@ -21,55 +21,66 @@ class Contact extends Component {
 
   render() {
     return (
-      <container className="contact-container">
-        <div className="shadow-box">
-          <form onSubmit={this.handleSubmit}>
+      <container className="contact">
+        <div className="contact__shadow">
+          <form class="contact__shadow-form" onSubmit={this.handleSubmit}>
             <h1>C O N T A C T &nbsp; U S</h1>
-            <p> Any question or remarks? Just write us a message! </p>
-            <box className="box">
+            <p className="contact__shadow-form-paragraph"> Any question or remarks? Just write us a message! </p>
+            <box className="contact__shadow-form-box">
               <label htmlFor="name">Name</label>
             </box>
             <input
-              id="name"
+              className="contact__shadow-form-input"
               type="text"
               name="name"
               placeholder="Enter your name"
             />
             <br />
-            <box className="box">
+            <box className="contact__shadow-form-box">
               <label htmlFor="email">E-mail</label>
             </box>
             <input
-              id="email"
+              className="contact__shadow-form-input"
               type="email"
               name="email"
               placeholder="Enter a valid e-mail address"
             />
             <br />
-            <box className="box">
+            <box className="contact__shadow-form-box">
               <label htmlFor="message">Message</label>
             </box>
-            <textarea id="message" name="message" />
+            <textarea className="contact__shadow-form-message" name="message" />
             <br />
-            <holder id="tosHolder">
-              <label class="checkboxContainer">
+            <holder className="contact__shadow-form-tos">
+              <label className="contact__shadow-form-tos-checkbox">
                 <input type="checkbox" />
-                <span class="checkmark"></span>
-                <span class="tosText">
+                <span className="contact__shadow-form-tos-checkbox-checkmark"></span>
+                <span className="contact__shadow-form-tos-checkbox-text">
                   &nbsp; I accept the Terms of Service
                 </span>
               </label>
             </holder>
             <br />
-            <button type="submit">
-              <span class="text"> send </span>
-              <span class="blob"></span>
-              <span class="blob"></span>
-              <span class="blob"></span>
-              <span class="blob"></span>
-            </button>
+            <holder className="contact__shadow-form-button-holder">
+              <button className="contact__shadow-form-button-holder-button" type="submit">
+                <span className="contact__shadow-form-button-holder-button-text"> send </span>
+                <span className="contact__shadow-form-button-holder-button-blob"></span>
+                <span className="contact__shadow-form-button-holder-button-blob"></span>
+                <span className="contact__shadow-form-button-holder-button-blob"></span>
+                <span className="contact__shadow-form-button-holder-button-blob"></span>
+              </button>
+              <a href="/#">
+                <button className="contact__shadow-form-button-holder-button" type="button">
+                  <span className="contact__shadow-form-button-holder-button-text"> back </span>
+                  <span className="contact__shadow-form-button-holder-button-blob"></span>
+                  <span className="contact__shadow-form-button-holder-button-blob"></span>
+                  <span className="contact__shadow-form-button-holder-button-blob"></span>
+                  <span className="contact__shadow-form-button-holder-button-blob"></span>
+                </button>
+              </a>
+            </holder>
           </form>
-          <div className="sectionFirst"></div>
+          <div className="contact__shadow-image"></div>
         </div>
       </container>
     );

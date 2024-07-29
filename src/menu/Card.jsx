@@ -4,10 +4,10 @@ import "./Card.scss";
 class Card extends Component {
   render() {
     return (
-      <div className="Card">
-        <img className="image2d" src={this.props.image} />
-        <img className="image3d" src={this.props.imageRemoved} />
-        <div className="caption">{this.props.caption}</div>
+      <div className="card">
+        <img className="card__image-2d" src={this.props.image} />
+        <img className="card__image-3d" src={this.props.imageRemoved} />
+        <div className="card__caption">{this.props.caption}</div>
       </div>
     );
   }

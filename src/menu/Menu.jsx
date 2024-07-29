@@ -11,8 +11,8 @@ import dogRemoved from "../assets/images/menu/dogRemoved.png";
 class Menu extends Component {
   render() {
     return (
-      <div className="MenuContainer">
-        <div className="Menu">
+      <div className="menu-container">
+        <div className="menu-container__elements">
           <a href="/#/OtherGames">
             <Card
               image={cat}

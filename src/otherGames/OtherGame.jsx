@@ -62,27 +62,27 @@ class OtherGame extends Component {
 
   render() {
     return (
-      <container className="other-game-container">
-        <div className="shadow-box">
-          <div className="description">
-            <h1 className="description__title">{this.props.title}</h1>
-            <h2 className="description__subtitle description__subtitle--red">
+      <container className="other-game">
+        <div className="other-game__shadow">
+          <div className="other-game__shadow-description">
+            <h1 className="other-game__shadow-description-title">{this.props.title}</h1>
+            <h2 className="other-game__shadow-description-subtitle">
               {this.props.subtitle}
             </h2>
-            <p className="description__text">{this.props.text}</p>
+            <p className="other-game__shadow-description-text">{this.props.text}</p>
             <a href="/#/OtherGames">
-              <button type="description__submit">
-                <span class="text"> back </span>
-                <span class="blob"></span>
-                <span class="blob"></span>
-                <span class="blob"></span>
-                <span class="blob"></span>
+              <button className="other-game__shadow-description-button" type="description__submit">
+                <span className="other-game__shadow-description-button-text"> back </span>
+                <span className="other-game__shadow-description-button-blob"></span>
+                <span className="other-game__shadow-description-button-blob"></span>
+                <span className="other-game__shadow-description-button-blob"></span>
+                <span className="other-game__shadow-description-button-blob"></span>
               </button>
             </a>
           </div>
 
           <div
-            className="sectionFirst"
+            className="other-game__shadow-first-section"
             style={{ backgroundImage: `url('${this.getPic()}')` }}
           ></div>
         </div>

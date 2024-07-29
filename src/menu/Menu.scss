@@ -1,17 +1,17 @@
-.Menu {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    margin: 0;
-    color: rgb(0, 0, 0);
-    z-index: 0;
-}
-
-.MenuContainer {
+.menu-container {
 
     background: url('../assets/images/menu/backg.jpg');
     background-size: cover;
+
+    &__elements {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+        color: rgb(0, 0, 0);
+        z-index: 0;
+    }
 
 }
