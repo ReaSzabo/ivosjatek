@@ -1,4 +1,3 @@
-import "./App.scss";
 import Menu from "./menu/Menu.jsx";
 import OtherGames from "./otherGames/OtherGames.jsx";
 import Game from "./drinkingGame/Game.jsx";
@@ -28,10 +27,6 @@ const router = createHashRouter([
   {
     path: "/",
     element: <Menu></Menu>,
-  },
-  {
-    path: "/OtherGames",
-    element: <OtherGames></OtherGames>,
   },
   {
     path: "/OtherGames",
