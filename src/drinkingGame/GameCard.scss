@@ -1,4 +1,9 @@
-.GameCard {
+.makesItFlipping {
+  transform: rotateY(0.5turn);
+  background-color: blue;
+}
+
+.game-card {
   position: relative;
   width: 334px;
   height: 500px;
@@ -12,11 +17,41 @@
   font-variant-caps: all-small-caps;
   font-weight: 300;
   letter-spacing: 1px;
-}
+  background-color: white;
+  transition: 1s ease-in-out;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
 
-.text {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+  &__face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: 1s ease-in-out;
+    -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+
+    img {
+      object-fit: cover;
+    }
+
+    &--back {
+      transform: rotateY(0.5turn);
+    }
+
+    &--front {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      user-select: none;
+    }
+
+    &--front:hover {
+      color: rgb(236, 182, 3);
+    }
+  }
 }

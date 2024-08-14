@@ -1,13 +1,14 @@
 import { Component } from "react";
 import "./OtherGames.scss";
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
 
-import "swiper/css";
-import "swiper/css/effect-coverflow";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
-import { EffectCoverflow, Pagination, Navigation } from "swiper";
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 import slide_image_1 from "../assets/images/otherGames/img_1.png";
 import slide_image_2 from "../assets/images/otherGames/img_2.png";
@@ -43,11 +44,11 @@ class OtherGames extends Component {
         </a>
         <div className="container">
           <Swiper
-            effect={"coverflow"}
+            effect="coverflow"
             grabCursor={true}
             centeredSlides={true}
             loop={true}
-            slidesPerView={"auto"}
+            slidesPerView="auto"
             coverflowEffect={{
               rotate: 0,
               stretch: 0,

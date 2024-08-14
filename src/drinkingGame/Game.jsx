@@ -1,55 +1,59 @@
 import { Component } from "react";
 import "./Game.scss";
 import GameCard from "./GameCard.jsx";
+import questionArray from "./questions.json";
 
 class Game extends Component {
   state = {
-    questions: [
-      "Egyes kérdés",
-      "Kettes kérdés",
-      "Hármas kérdés",
-      "Négyes kérdés",
-      "Ötös kérdés",
-      "Hatos kérdés",
-      "Hetes kérdés",
-      "Nyolcas kérdés",
-      "Kilences kérdés",
-      "Tizes kérdés",
-    ],
-    actualQuestion: "Nulladik kérdés",
+    questions: questionArray,
+    currentQuestion: null,
+    isFlipped: false,
   };
 
-  setActualQuestion = () => {
-    this.setState({
-      questions:
-        this.state.questions[
-          Math.floor(Math.random() * this.state.questions.length)
-        ],
-    });
+  setOnCardClick = () => {
 
-    let tempQuestions = [...this.state.questions];
-
-    const index = tempQuestions.indexOf(this.state.actualQuestion);
-    if (index > -1) {
-      tempQuestions.splice(index, 1);
+    // Exit function if there is no more question
+    if (this.state.questions.length === 0) {
+      return;
     }
 
-    this.setState({
-      questions: tempQuestions,
-    });
-  };
+    // Get a random question and store it in a variable
+    let tempCurrentQuestion = this.state.questions[
+      Math.floor(Math.random() * this.state.questions.length)
+    ].hu;
+
+    // Put the random question to the "this.state.currentQuestion"
+    setTimeout(
+      () => this.setState({
+        currentQuestion: tempCurrentQuestion
+      }), 500
+    );
+
+    if (this.state.isFlipped) {
+      this.setState({
+        isFlipped: false
+      })
+    } else {
+      this.setState({
+        isFlipped: true
+      })
+    }
+
+  }
+
 
   render() {
     return (
       <div className="gameContainer">
-        <GameCard>text={this.state.actualQuestion}</GameCard>
-        <GameCard>
-          <p>{this.state.actualQuestion}</p>
-        </GameCard>
-        <GameCard>
-          <p>{this.state.actualQuestion}</p>
-        </GameCard>
-        <button onClick={this.setActualQuestion}> NEXT</button>
+        <div
+          onClick={this.setOnCardClick}
+        >
+          <GameCard
+            text={this.state.currentQuestion}
+            isFlipped={this.state.isFlipped}
+          >
+          </GameCard>
+        </div>
       </div>
     );
   }
