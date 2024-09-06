@@ -1,12 +1,12 @@
 import { Component } from "react";
 import "./Menu.scss";
 import Card from "./Card.jsx";
-import cat from "../assets/images/menu/cat.png";
-import catRemoved from "../assets/images/menu/catRemoved.png";
-import lion from "../assets/images/menu/lion.png";
-import lionRemoved from "../assets/images/menu/lionRemoved.png";
-import dog from "../assets/images/menu/dog.png";
-import dogRemoved from "../assets/images/menu/dogRemoved.png";
+import cat from "../assets/images/menu/cat.webp";
+import catRemoved from "../assets/images/menu/catRemoved.webp";
+import lion from "../assets/images/menu/lion.webp";
+import lionRemoved from "../assets/images/menu/lionRemoved.webp";
+import dog from "../assets/images/menu/dog.webp";
+import dogRemoved from "../assets/images/menu/dogRemoved.webp";
 
 class Menu extends Component {
   render() {

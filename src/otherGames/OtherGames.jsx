@@ -10,24 +10,24 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import slide_image_1 from "../assets/images/otherGames/img_1.png";
-import slide_image_2 from "../assets/images/otherGames/img_2.png";
-import slide_image_3 from "../assets/images/otherGames/img_3.png";
-import slide_image_4 from "../assets/images/otherGames/img_4.png";
-import slide_image_5 from "../assets/images/otherGames/img_5.png";
-import slide_image_6 from "../assets/images/otherGames/img_6.png";
-import slide_image_7 from "../assets/images/otherGames/img_7.png";
-import slide_image_8 from "../assets/images/otherGames/img_8.png";
-import slide_image_9 from "../assets/images/otherGames/img_9.png";
-import slide_image_10 from "../assets/images/otherGames/img_10.png";
-import slide_image_11 from "../assets/images/otherGames/img_11.png";
-import slide_image_12 from "../assets/images/otherGames/img_12.png";
-import slide_image_13 from "../assets/images/otherGames/img_13.png";
-import slide_image_14 from "../assets/images/otherGames/img_14.png";
-import slide_image_15 from "../assets/images/otherGames/img_15.png";
-import slide_image_16 from "../assets/images/otherGames/img_16.png";
-import slide_image_17 from "../assets/images/otherGames/img_17.png";
-import slide_image_18 from "../assets/images/otherGames/img_18.png";
+import slide_image_1 from "../assets/images/otherGames/img_1.webp";
+import slide_image_2 from "../assets/images/otherGames/img_2.webp";
+import slide_image_3 from "../assets/images/otherGames/img_3.webp";
+import slide_image_4 from "../assets/images/otherGames/img_4.webp";
+import slide_image_5 from "../assets/images/otherGames/img_5.webp";
+import slide_image_6 from "../assets/images/otherGames/img_6.webp";
+import slide_image_7 from "../assets/images/otherGames/img_7.webp";
+import slide_image_8 from "../assets/images/otherGames/img_8.webp";
+import slide_image_9 from "../assets/images/otherGames/img_9.webp";
+import slide_image_10 from "../assets/images/otherGames/img_10.webp";
+import slide_image_11 from "../assets/images/otherGames/img_11.webp";
+import slide_image_12 from "../assets/images/otherGames/img_12.webp";
+import slide_image_13 from "../assets/images/otherGames/img_13.webp";
+import slide_image_14 from "../assets/images/otherGames/img_14.webp";
+import slide_image_15 from "../assets/images/otherGames/img_15.webp";
+import slide_image_16 from "../assets/images/otherGames/img_16.webp";
+import slide_image_17 from "../assets/images/otherGames/img_17.webp";
+import slide_image_18 from "../assets/images/otherGames/img_18.webp";
 
 class OtherGames extends Component {
   render() {

@@ -1,23 +1,23 @@
 import { Component } from "react";
 import "./OtherGame.scss";
-import image_1 from "../assets/images/otherGames/img_1.png";
-import image_2 from "../assets/images/otherGames/img_2.png";
-import image_3 from "../assets/images/otherGames/img_3.png";
-import image_4 from "../assets/images/otherGames/img_4.png";
-import image_5 from "../assets/images/otherGames/img_5.png";
-import image_6 from "../assets/images/otherGames/img_6.png";
-import image_7 from "../assets/images/otherGames/img_7.png";
-import image_8 from "../assets/images/otherGames/img_8.png";
-import image_9 from "../assets/images/otherGames/img_9.png";
-import image_10 from "../assets/images/otherGames/img_10.png";
-import image_11 from "../assets/images/otherGames/img_11.png";
-import image_12 from "../assets/images/otherGames/img_12.png";
-import image_13 from "../assets/images/otherGames/img_13.png";
-import image_14 from "../assets/images/otherGames/img_14.png";
-import image_15 from "../assets/images/otherGames/img_15.png";
-import image_16 from "../assets/images/otherGames/img_16.png";
-import image_17 from "../assets/images/otherGames/img_17.png";
-import image_18 from "../assets/images/otherGames/img_18.png";
+import image_1 from "../assets/images/otherGames/img_1.webp";
+import image_2 from "../assets/images/otherGames/img_2.webp";
+import image_3 from "../assets/images/otherGames/img_3.webp";
+import image_4 from "../assets/images/otherGames/img_4.webp";
+import image_5 from "../assets/images/otherGames/img_5.webp";
+import image_6 from "../assets/images/otherGames/img_6.webp";
+import image_7 from "../assets/images/otherGames/img_7.webp";
+import image_8 from "../assets/images/otherGames/img_8.webp";
+import image_9 from "../assets/images/otherGames/img_9.webp";
+import image_10 from "../assets/images/otherGames/img_10.webp";
+import image_11 from "../assets/images/otherGames/img_11.webp";
+import image_12 from "../assets/images/otherGames/img_12.webp";
+import image_13 from "../assets/images/otherGames/img_13.webp";
+import image_14 from "../assets/images/otherGames/img_14.webp";
+import image_15 from "../assets/images/otherGames/img_15.webp";
+import image_16 from "../assets/images/otherGames/img_16.webp";
+import image_17 from "../assets/images/otherGames/img_17.webp";
+import image_18 from "../assets/images/otherGames/img_18.webp";
 
 class OtherGame extends Component {
   getPic() {

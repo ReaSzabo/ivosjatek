@@ -15,7 +15,7 @@ class KingsCup extends Component {
              Léteznek Kings Cup nevű, angol nyelvű applikációk is. 
              Ezekben a kártyák felett megjelennek a szabályok is, 
              így nem kell neked kitalálnod őket."
-        picture="../assets/images/otherGames/img_1.png"
+        picture="../assets/images/otherGames/img_1.webp"
       ></OtherGame>
     );
   }
