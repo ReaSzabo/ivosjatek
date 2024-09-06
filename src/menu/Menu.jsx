@@ -13,21 +13,21 @@ class Menu extends Component {
     return (
       <div className="menu-container">
         <div className="menu-container__elements">
-          <a href="/#/OtherGames">
+          <a href="#/OtherGames">
             <Card
               image={cat}
               imageRemoved={catRemoved}
               caption="Other Drinking Games"
             ></Card>
           </a>
-          <a href="/#/Game">
+          <a href="#/Game">
             <Card
               image={lion}
               imageRemoved={lionRemoved}
               caption="Our Drinking Game"
             ></Card>
           </a>
-          <a href="/#/Contact">
+          <a href="#/Contact">
             <Card
               image={dog}
               imageRemoved={dogRemoved}
