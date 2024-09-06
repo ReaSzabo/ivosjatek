@@ -7,9 +7,16 @@ class GameCard extends Component {
     return (
       <div className={this.props.isFlipped ? "game-card" : "game-card makesItFlipping"}>
         <div class="game-card__face game-card__face--back">
-          <img src="https://i.loli.net/2019/11/23/cnKl1Ykd5rZCVwm.jpg" />
+          <img src={this.props.image} alt="backface" />
         </div>
         <div className="game-card__face game-card__face--front">{this.props.text}</div>
+        <button className="next-button" type="button">
+          <span className="button-text"> next </span>
+          <span className="button-blob"></span>
+          <span className="button-blob"></span>
+          <span className="button-blob"></span>
+          <span className="button-blob"></span>
+        </button>
       </div>
     );
   }

@@ -2,6 +2,7 @@ import { Component } from "react";
 import "./Contact.scss";
 
 class Contact extends Component {
+
   handleSubmit = (event) => {
     event.preventDefault();
     fetch("https://formspree.io/f/xjvnrgon", {
