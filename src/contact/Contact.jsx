@@ -70,7 +70,7 @@ class Contact extends Component {
                 <span className="contact__shadow-form-button-holder-button-blob"></span>
                 <span className="contact__shadow-form-button-holder-button-blob"></span>
               </button>
-              <a href="/#">
+              <a href="#/">
                 <button className="contact__shadow-form-button-holder-button" type="button">
                   <span className="contact__shadow-form-button-holder-button-text"> back </span>
                   <span className="contact__shadow-form-button-holder-button-blob"></span>

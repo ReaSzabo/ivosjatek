@@ -33,7 +33,7 @@ class OtherGames extends Component {
   render() {
     return (
       <div className="background">
-        <a href="/#/#Menu">
+        <a href="#/">
           <button type="description__submit">
             <span class="text"> back </span>
             <span class="blob"></span>

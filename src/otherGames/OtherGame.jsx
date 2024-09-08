@@ -70,7 +70,7 @@ class OtherGame extends Component {
               {this.props.subtitle}
             </h2>
             <p className="other-game__shadow-description-text">{this.props.text}</p>
-            <a href="/#/OtherGames">
+            <a href="#/OtherGames">
               <button className="other-game__shadow-description-button" type="description__submit">
                 <span className="other-game__shadow-description-button-text"> back </span>
                 <span className="other-game__shadow-description-button-blob"></span>
