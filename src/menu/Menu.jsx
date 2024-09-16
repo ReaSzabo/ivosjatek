@@ -7,12 +7,23 @@ import lion from "../assets/images/menu/lion.webp";
 import lionRemoved from "../assets/images/menu/lionRemoved.webp";
 import dog from "../assets/images/menu/dog.webp";
 import dogRemoved from "../assets/images/menu/dogRemoved.webp";
+import CookieConsent from "react-cookie-consent";
 
 class Menu extends Component {
   render() {
     return (
       <div className="menu-container">
         <div className="menu-container__elements">
+          <CookieConsent
+            location="bottom"
+            buttonText="Hát persze!!"
+            cookieName="myAwesomeCookieName2"
+            style={{ background: "#ecb603" }}
+            buttonStyle={{ background: "#fff1ff", color: "#02a4d1", borderRadius: "4px", fontSize: "13px", fontFamily: "Montserrat, sans-serif", fontVariant: "all-small-caps" }}
+            expires={150}
+          >
+            Sütiket (cookie-kat) használunk a jobb felhasználói élmény érdekében. Hozzájárulsz?
+          </CookieConsent>
           <a href="#/OtherGames">
             <Card
               image={cat}
