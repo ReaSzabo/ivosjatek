@@ -175,7 +175,16 @@ class Game extends Component {
 
   render() {
     return (
-      <div className="gameContainer">
+      <div className="game-container">
+        <a href="#/">
+          <button class="game-container__back-button">
+            <span class="game-container__back-button-text"> vissza </span>
+            <span class="game-container__back-button-blob"></span>
+            <span class="game-container__back-button-blob"></span>
+            <span class="game-container__back-button-blob"></span>
+            <span class="game-container__back-button-blob"></span>
+          </button>
+        </a>
         <div
           onClick={this.setOnCardClick}
         >
