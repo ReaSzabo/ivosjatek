@@ -34,8 +34,8 @@ class OtherGames extends Component {
     return (
       <div className="background">
         <a href="#/">
-          <button type="description__submit">
-            <span class="text"> back </span>
+          <button type="button">
+            <span class="text"> vissza </span>
             <span class="blob"></span>
             <span class="blob"></span>
             <span class="blob"></span>
@@ -74,13 +74,13 @@ class OtherGames extends Component {
             <SwiperSlide>
               <a href="#/OtherGames/UnflinchingFace">
                 <img src={slide_image_3} alt="slide_image" />
-                <div className="caption"> Unflinching Face </div>
+                <div className="caption"> Rezzenéstelen arc </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/FlipCup">
                 <img src={slide_image_4} alt="slide_image" />
-                <div className="caption"> Flip Cup </div>
+                <div className="caption"> Pohár fordító </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
@@ -92,13 +92,13 @@ class OtherGames extends Component {
             <SwiperSlide>
               <a href="#/OtherGames/MostLikely">
                 <img src={slide_image_6} alt="slide_image" />
-                <div className="caption"> Most Likely </div>
+                <div className="caption"> Legvalószínűbb </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/TakeTheBag">
                 <img src={slide_image_7} alt="slide_image" />
-                <div className="caption"> Take The Bag </div>
+                <div className="caption"> Fogd a táskát </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
@@ -110,19 +110,19 @@ class OtherGames extends Component {
             <SwiperSlide>
               <a href="#/OtherGames/StuckTogether">
                 <img src={slide_image_9} alt="slide_image" />
-                <div className="caption"> Stuck Together </div>
+                <div className="caption"> Összeragadva </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/INeverHaveEver">
                 <img src={slide_image_10} alt="slide_image" />
-                <div className="caption"> I Never Have Ever </div>
+                <div className="caption"> Én még soha... </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/BeerPong">
                 <img src={slide_image_11} alt="slide_image" />
-                <div className="caption"> Beer Pong </div>
+                <div className="caption"> Sörpong </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
@@ -134,13 +134,13 @@ class OtherGames extends Component {
             <SwiperSlide>
               <a href="#/OtherGames/DeathCircle">
                 <img src={slide_image_13} alt="slide_image" />
-                <div className="caption"> Death Circle </div>
+                <div className="caption"> Halálkör </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/DrawACardAndHope">
                 <img src={slide_image_14} alt="slide_image" />
-                <div className="caption"> Draw A Card And Hope </div>
+                <div className="caption"> Húzz és reménykedj </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
@@ -152,19 +152,19 @@ class OtherGames extends Component {
             <SwiperSlide>
               <a href="#/OtherGames/OneTrueOneFalse">
                 <img src={slide_image_16} alt="slide_image" />
-                <div className="caption"> One True, One False </div>
+                <div className="caption"> Egy igaz, egy hamis </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/Boardgames">
                 <img src={slide_image_17} alt="slide_image" />
-                <div className="caption"> Boardgames </div>
+                <div className="caption"> Társasjátékok </div>
               </a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="#/OtherGames/RussianRoulette">
                 <img src={slide_image_18} alt="slide_image" />
-                <div className="caption"> Russian Roulette </div>
+                <div className="caption"> Orosz rulett </div>
               </a>
             </SwiperSlide>
 

@@ -5,7 +5,7 @@ class MostLikely extends Component {
   render() {
     return (
       <OtherGame
-        title="Most Likely"
+        title="Legvalószínűbb"
         subtitle="Ami kell hozzá: italok"
         text="A játékosok körben ülnek és feltesznek egy 
         'legvalószínűbb' kérdést. 
@@ -13,6 +13,7 @@ class MostLikely extends Component {
         Ezután háromra mindenki arra a személyre mutat, 
         aki szerinte a legvalószínűbb. Akire a legtöbben mutatnak, 
         az iszik és annyit, ahányan mutattak rá."
+        picture="../assets/images/otherGames/img_6.webp"
       ></OtherGame>
     );
   }

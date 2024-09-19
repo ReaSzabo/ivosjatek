@@ -20,6 +20,7 @@ class Jenga extends Component {
         kihúzott darabkán lévő szabály érvényesül. Na de mi van, 
         ha ledöntöd az egész tornyot? Hát, reménykedj, hogy kevés italod maradt, 
         mert mindet meg kell innod, mielőtt a következő kör elkezdődik"
+        picture="../assets/images/otherGames/img_8.webp"
       ></OtherGame>
     );
   }

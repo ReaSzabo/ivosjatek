@@ -25,37 +25,37 @@ class OtherGame extends Component {
       return image_1;
     } else if (this.props.title === "Thumper") {
       return image_2;
-    } else if (this.props.title === "Unflinching Face") {
+    } else if (this.props.title === "Rezzenéstelen arc") {
       return image_3;
-    } else if (this.props.title === "Flip Cup") {
+    } else if (this.props.title === "Pohár fordító") {
       return image_4;
     } else if (this.props.title === "Bumm") {
       return image_5;
-    } else if (this.props.title === "Most Likely") {
+    } else if (this.props.title === "Legvalószínűbb") {
       return image_6;
-    } else if (this.props.title === "Take The Bag") {
+    } else if (this.props.title === "Fogd a táskát") {
       return image_7;
     } else if (this.props.title === "Jenga") {
       return image_8;
-    } else if (this.props.title === "Stuck Together") {
+    } else if (this.props.title === "Összeragadva") {
       return image_9;
-    } else if (this.props.title === "I Never Have Ever") {
+    } else if (this.props.title === "Én még soha...") {
       return image_10;
-    } else if (this.props.title === "BeerPong") {
+    } else if (this.props.title === "Sörpong") {
       return image_11;
     } else if (this.props.title === "T-Rex") {
       return image_12;
-    } else if (this.props.title === "Death Circle") {
+    } else if (this.props.title === "Halálkör") {
       return image_13;
-    } else if (this.props.title === "Draw a Card and Hope") {
+    } else if (this.props.title === "Húzz és reménykedj") {
       return image_14;
     } else if (this.props.title === "Djibouti") {
       return image_15;
-    } else if (this.props.title === "One True, One False") {
+    } else if (this.props.title === "Egy igaz, egy hamis") {
       return image_16;
-    } else if (this.props.title === "Board Games") {
+    } else if (this.props.title === "Társasjátékok") {
       return image_17;
-    } else if (this.props.title === "Russian Roulette") {
+    } else if (this.props.title === "Orosz rulett") {
       return image_18;
     }
   }
@@ -72,7 +72,7 @@ class OtherGame extends Component {
             <p className="other-game__shadow-description-text">{this.props.text}</p>
             <a href="#/OtherGames">
               <button className="other-game__shadow-description-button" type="description__submit">
-                <span className="other-game__shadow-description-button-text"> back </span>
+                <span className="other-game__shadow-description-button-text"> vissza </span>
                 <span className="other-game__shadow-description-button-blob"></span>
                 <span className="other-game__shadow-description-button-blob"></span>
                 <span className="other-game__shadow-description-button-blob"></span>

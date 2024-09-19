@@ -5,7 +5,7 @@ class BeerPong extends Component {
   render() {
     return (
       <OtherGame
-        title="BeerPong"
+        title="Sörpong"
         subtitle="Egyszerűek a szabályok és a játék is"
         text="Két csapat játszik egymás ellen. 
         A lényeg, hogy az ellenfél poharába beledobj egy pingponglabdát, és ha ez sikerült, meg kell inniuk a pohár tartalmát. Ha a labda visszapattan a ti térfeletekre, 
@@ -15,6 +15,7 @@ class BeerPong extends Component {
         A játék játszható különböző tartalmú poharakkal is (pl. sör és fröccs). 
         A poharak elrendezése ugyanaz, mint a sörpongnál, 
         viszont a fröccs és a sör aránya csakis rajtatok áll."
+        picture="../assets/images/otherGames/img_11.webp"
       ></OtherGame>
     );
   }

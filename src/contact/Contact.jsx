@@ -25,16 +25,16 @@ class Contact extends Component {
       <container className="contact">
         <div className="contact__shadow">
           <form class="contact__shadow-form" onSubmit={this.handleSubmit}>
-            <h1>C O N T A C T &nbsp; U S</h1>
-            <p className="contact__shadow-form-paragraph"> Any question or remarks? Just write us a message! </p>
+            <h1>Í R J &nbsp; N E K Ü N K</h1>
+            <p className="contact__shadow-form-paragraph"> Kérdésed vagy javaslatod van? Vedd fel velünk a kapcsolatot!</p>
             <box className="contact__shadow-form-box">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Név</label>
             </box>
             <input
               className="contact__shadow-form-input"
               type="text"
               name="name"
-              placeholder="Enter your name"
+              placeholder="ide írd a neved"
             />
             <br />
             <box className="contact__shadow-form-box">
@@ -44,27 +44,30 @@ class Contact extends Component {
               className="contact__shadow-form-input"
               type="email"
               name="email"
-              placeholder="Enter a valid e-mail address"
+              placeholder="adj meg egy érvényes e-mail címet"
             />
             <br />
             <box className="contact__shadow-form-box">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Üzenet</label>
             </box>
-            <textarea className="contact__shadow-form-message" name="message" />
+            <textarea
+              className="contact__shadow-form-message"
+              name="message"
+              placeholder="ide jöhet az üzeneted" />
             <br />
             <holder className="contact__shadow-form-tos">
               <label className="contact__shadow-form-tos-checkbox">
                 <input type="checkbox" />
                 <span className="contact__shadow-form-tos-checkbox-checkmark"></span>
                 <span className="contact__shadow-form-tos-checkbox-text">
-                  &nbsp; I accept the Terms of Service
+                  &nbsp; Persze, elfogadom a felhasználási feltételeket !
                 </span>
               </label>
             </holder>
             <br />
             <holder className="contact__shadow-form-button-holder">
               <button className="contact__shadow-form-button-holder-button" type="submit">
-                <span className="contact__shadow-form-button-holder-button-text"> send </span>
+                <span className="contact__shadow-form-button-holder-button-text"> küldés </span>
                 <span className="contact__shadow-form-button-holder-button-blob"></span>
                 <span className="contact__shadow-form-button-holder-button-blob"></span>
                 <span className="contact__shadow-form-button-holder-button-blob"></span>
@@ -72,7 +75,7 @@ class Contact extends Component {
               </button>
               <a href="#/">
                 <button className="contact__shadow-form-button-holder-button" type="button">
-                  <span className="contact__shadow-form-button-holder-button-text"> back </span>
+                  <span className="contact__shadow-form-button-holder-button-text"> vissza </span>
                   <span className="contact__shadow-form-button-holder-button-blob"></span>
                   <span className="contact__shadow-form-button-holder-button-blob"></span>
                   <span className="contact__shadow-form-button-holder-button-blob"></span>

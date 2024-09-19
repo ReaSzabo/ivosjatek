@@ -11,7 +11,7 @@ class GameCard extends Component {
         </div>
         <div className="game-card__face game-card__face--front">{this.props.text}</div>
         <button className="next-button" type="button">
-          <span className="button-text"> next </span>
+          <span className="button-text"> új </span>
           <span className="button-blob"></span>
           <span className="button-blob"></span>
           <span className="button-blob"></span>

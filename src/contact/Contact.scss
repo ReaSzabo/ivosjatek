@@ -240,6 +240,13 @@
         width: 90%;
         box-sizing: border-box;
         border-bottom: 1px solid rgb(137, 23, 244);
+
+        &::placeholder {
+          font-size: 14px;
+          font-weight: lighter;
+          font-variant: small-caps;
+        }
+
       }
 
 

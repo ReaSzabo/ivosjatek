@@ -22,27 +22,27 @@ class Menu extends Component {
             buttonStyle={{ background: "#fff1ff", color: "#02a4d1", borderRadius: "4px", fontSize: "13px", fontFamily: "Montserrat, sans-serif", fontVariant: "all-small-caps" }}
             expires={150}
           >
-            Sütiket (cookie-kat) használunk a jobb felhasználói élmény érdekében. Hozzájárulsz?
+            Sütiket (cookie-kat) használunk a választott nyelv mentéséhez. Hozzájárulsz?
           </CookieConsent>
           <a href="#/OtherGames">
             <Card
               image={cat}
               imageRemoved={catRemoved}
-              caption="Other Drinking Games"
+              caption="Más Ivós Játékok"
             ></Card>
           </a>
           <a href="#/Game">
             <Card
               image={lion}
               imageRemoved={lionRemoved}
-              caption="Our Drinking Game"
+              caption="A Mi Ivós Játékunk"
             ></Card>
           </a>
           <a href="#/Contact">
             <Card
               image={dog}
               imageRemoved={dogRemoved}
-              caption="Contact Us"
+              caption="Kapcsolat"
             ></Card>
           </a>
         </div>

@@ -5,7 +5,7 @@ class DrawACardAndHope extends Component {
   render() {
     return (
       <OtherGame
-        title="Draw a Card and Hope"
+        title="Húzz és reménykedj"
         subtitle="Ami kell hozzá: italok, franciakártyák"
         text="Ehhez a játékhoz nem kell más, csak egy pakli kártya, 
         haverok és pia. Keverjétek meg a paklit alaposan, és már kezdődhet is a játék. 
@@ -27,6 +27,7 @@ class DrawACardAndHope extends Component {
         K: Ez a legizgalmasabb lap. Kijelölhetsz valakit, hogy minden alkalommal, amikor neked innod kell, ő is igyon. Ez az áldás (vagy átok) addig tart, amíg a pakli összes lapját el nem használjátok.
         
         A: Válassz egyet a lapok funkciói közül (kivéve: K)"
+        picture="../assets/images/otherGames/img_14.webp"
       ></OtherGame>
     );
   }

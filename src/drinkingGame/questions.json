@@ -440,8 +440,8 @@
         "en": "Drink if you did not want to play with the drinking game."
     },
     {
-        "hu": "%NAME%: Válassz ivópajtit! Egy embernek csak egy ivópajtija lehet. (Ivópajti: mindig iszik, ha te is.)",
-        "en": "%NAME%: Choose a Drinking Buddy! (They have to drink everytime you drink.)"
+        "hu": "Válassz ivópajtit! Egy embernek csak egy ivópajtija lehet. (Ivópajti: mindig iszik, ha te is.)",
+        "en": "Choose a Drinking Buddy! (They have to drink everytime you drink.)"
     },
     {
         "hu": "Az iszik, aki a játék után indul bulizni. Fenékig a poharakat!",
@@ -473,59 +473,59 @@
     },
     {
         "hu": "Az iszik, aki  szerinted a legrészegebb.",
-        "en": "%NAME%: The drunkest player according to you has to drink."
+        "en": "The drunkest player according to you has to drink."
     },
     {
         "hu": "Az iszik, aki szerinted a legjózanabb.",
-        "en": "%NAME%: The soberest player according to you has to drink."
+        "en": "The soberest player according to you has to drink."
     },
     {
         "hu": "Az iszik, aki szerinted a legidegesítőbb.",
-        "en": "%NAME%: The most annoying player according to you has to drink."
+        "en": "The most annoying player according to you has to drink."
     },
     {
         "hu": "Az iszik, aki a szerinted ma hányni fog.",
-        "en": "%NAME%: Who do you think has the most chances of puking tonight."
+        "en": "Who do you think has the most chances of puking tonight."
     },
     {
         "hu": "Az iszik, aki a szerinted a legsmucigabb a borravaló adásnál.",
-        "en": "%NAME%: The thirfiest player according to you has to drink."
+        "en": "The thirfiest player according to you has to drink."
     },
     {
         "hu": "Az iszik, aki szerinted a leglustább.",
-        "en": "%NAME%: The laziest player according to you has to drink."
+        "en": "The laziest player according to you has to drink."
     },
     {
         "hu": "Az iszik, akinek szerinted a legjobb illatú a parfümje.",
-        "en": "%NAME%: You choose which player smells the nicest. They must drink."
+        "en": "You choose which player smells the nicest. They must drink."
     },
     {
         "hu": "Az iszik, aki szerinted a legerősebb.",
-        "en": "%NAME%: The strongest player according to you has to drink."
+        "en": "The strongest player according to you has to drink."
     },
     {
         "hu": "Az iszik, akinek szerinted a legjobb a frizurája.",
-        "en": "%NAME%: The player with the nicest hair according to you has to drink."
+        "en": "The player with the nicest hair according to you has to drink."
     },
     {
         "hu": "Az iszik, aki szerinted a legmelegszívűbb.",
-        "en": "%NAME%: The most warm-hearted player according to you has to drink."
+        "en": "The most warm-hearted player according to you has to drink."
     },
     {
         "hu": "Az iszik, akinek szerinted a legjobb a kézügyessége.",
-        "en": "%NAME%: The most handy player according to you has to drink."
+        "en": "The most handy player according to you has to drink."
     },
     {
         "hu": "Az iszik, aki szerinted a legjobban tud táncolni.",
-        "en": "%NAME%: The best dancing player according to you has to drink."
+        "en": "The best dancing player according to you has to drink."
     },
     {
         "hu": "Az iszik, aki szerinted hisz a horoszkópban.",
-        "en": "%NAME%: According to you which player believes in astronomy? They have to drink."
+        "en": "According to you which player believes in astronomy? They have to drink."
     },
     {
         "hu": "Az iszik, aki szerinted a leglelkesebb.",
-        "en": "%NAME%: The soulfullest player according to you has to drink."
+        "en": "The soulfullest player according to you has to drink."
     },
     {
         "hu": "Az iszik, aki fogott már fegyvert.",
@@ -1120,20 +1120,20 @@
         "en": "Drink if you have ever regretted that had sex with someone."
     },
     {
-        "hu": "%NAME%: Mennyit fizetnél, hogy lefeküdhess a jobbra ülő játékossal?",
-        "en": "%NAME%: How much money would you pay to sleep with the player on your right?"
+        "hu": "Mennyit fizetnél, hogy lefeküdhess a jobbra ülő játékossal?",
+        "en": "How much money would you pay to sleep with the player on your right?"
     },
     {
-        "hu": "%NAME%: Mennyit fizetnél, hogy lefeküdhess a balra ülő játékossal?",
-        "en": "%NAME%: How much money would you pay to sleep with the player on your left?"
+        "hu": "Mennyit fizetnél, hogy lefeküdhess a balra ülő játékossal?",
+        "en": "How much money would you pay to sleep with the player on your left?"
     },
     {
-        "hu": "%NAME%: A bal vagy jobb szomszédoddal feküdnél le inkább?",
-        "en": "%NAME%: Would you rather have sex with your left or your right neightbour?"
+        "hu": "A bal vagy jobb szomszédoddal feküdnél le inkább?",
+        "en": "Would you rather have sex with your left or your right neightbour?"
     },
     {
-        "hu": "%NAME%: Ha választanod kellene, melyik hírességgel feküdnél le?",
-        "en": "%NAME%: If you could have sex with a celebrity, who would it be?"
+        "hu": "Ha választanod kellene, melyik hírességgel feküdnél le?",
+        "en": "If you could have sex with a celebrity, who would it be?"
     },
     {
         "hu": "Az iszik, akinek több egyéjszakás kalandja volt, mint \"\"igazi\"\" kapcsolata. (minimum 1 hónap).",
@@ -1172,11 +1172,11 @@
         "en": "For all players: you have to call the other players Bobby. If someone uses a real name, has to drink."
     },
     {
-        "hu": "%NAME%: Mostantól mindenki csak Károlynak szólíthat téged. Ha valaki mégis az igazi neveden szólít, az iszik.",
-        "en": "%NAME%: For all players: you have to call the other players Percival. If someone uses a real name, has to drink."
+        "hu": "Mostantól mindenki csak Károlynak szólíthat téged. Ha valaki mégis az igazi neveden szólít, az iszik.",
+        "en": "For all players: you have to call the other players Percival. If someone uses a real name, has to drink."
     },
     {
-        "hu": "%NAME%: Döntsd el, ki a legpapucsabb a játékosok közül, mostantól Papucsnak kell szólítanotok! Aki nem így hívja, iszik. Papucs is igyon egyet!",
+        "hu": "Döntsd el, ki a legpapucsabb a játékosok közül, mostantól Papucsnak kell szólítanotok! Aki nem így hívja, iszik. Papucs is igyon egyet!",
         "en": "For all players: you have to call the highest players Big Boss. If someone uses their real name, has to drink."
     },
     {
@@ -1185,239 +1185,239 @@
     },
     {
         "hu": "Mindenki mond egy szinonimát a péniszre. Addig mennek  a körök, míg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a synonym for the penis one after another until one of you can't, they drink. %NAME% is the first. %NAME% is the first."
+        "en": "For all players: Tell a synonym for the penis one after another until one of you can't, they drink.  is the first.  is the first."
     },
     {
         "hu": "Mindenki mond egy szinonimát a mellekre. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a synonym for the boobs one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a synonym for the boobs one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szinonimát a herékre. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
-        "en": "For all players: Tell a synonym for the testicles one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a synonym for the testicles one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szereplőt a South Parkból. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a character from the South Park one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a character from the South Park one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szereplőt a Agymenőkből. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a character from the Big Bang Theory one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a character from the Big Bang Theory one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szereplőt a Family Guyból. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a character from the Family Guy one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a character from the Family Guy one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szereplőt a Harry Potterből. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a character from the Harry Potter one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a character from the Harry Potter one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szereplőt A gyűrűk urából. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a character from the Lord of the Rings one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a character from the Lord of the Rings one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szereplőt a Star Warsból. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a character from the Star Wars one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a character from the Star Wars one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szereplőt a Shrekből. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
-        "en": "For all players: Tell a character from the Shrek one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a character from the Shrek one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szereplőt az Oroszlánkirályból. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a character from the Lion King one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a character from the Lion King one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szupermarketet. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a supermarket one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a supermarket one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szexuális segédeszközt. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell an adult toy one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell an adult toy one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy traktor márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell an tractor manufacturer one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell an tractor manufacturer one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy autó márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell an car manufacturer one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell an car manufacturer one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy pornóoldalt. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a porn site one after another. If you can't until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a porn site one after another. If you can't until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy pornókiadót (pl.Brazzers). Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a porn publisher (e.g. Brazzers) one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a porn publisher (e.g. Brazzers) one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy pornószínészt / pornószínésznőt. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a porn actor/actress one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a porn actor/actress one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy pornószínésznőt. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a porn actress one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a porn actress one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy olasz származású színészt. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell an actor/actress with Italian roots one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell an actor/actress with Italian roots one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy magyar színészt. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell an Oscar winner actor/actress one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell an Oscar winner actor/actress one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy tampon márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a tampon brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a tampon brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy sör márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik. ",
-        "en": "For all players: Tell a beer brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a beer brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy vodka márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a vodka brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a vodka brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy whiskey márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a whiskey brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a whiskey brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy üdítő  márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a coke brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a coke brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy óvszer márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a condom brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a condom brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy szexuális pozíciót. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a sex position one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a sex position one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy fővárost. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a capital one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a capital one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy egyetemet. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a university one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a university one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy T betűvel kezdődő országot. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a TV series one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a TV series one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy sorozatot. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a TV series one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a TV series one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy sampon márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a sampoo brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a sampoo brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy Hungarikumot. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a holiday from the USA (e.g. Columbus Day) one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a holiday from the USA (e.g. Columbus Day) one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy telefon márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a phone brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a phone brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy német zenekart. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a German music band one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a German music band one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mondjon egy okot, miért jó nőnek lenni. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a laptop brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a laptop brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy laptop márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a laptop brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a laptop brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Mindenki mond egy TV márkát. Addig mennek a körök, amíg valaki már nem tud mondani. Ő iszik.",
-        "en": "For all players: Tell a TV brand one after another until one of you can't, they drink. %NAME% is the first."
+        "en": "For all players: Tell a TV brand one after another until one of you can't, they drink.  is the first."
     },
     {
         "hu": "Csinálj 10 fekvőtámaszt! Ha nem tudsz, annyit iszol, amennyit a jobbra ülő mond.",
-        "en": "%NAME%: Do 10 push ups or your right neighbour will tell you how much you have to drink."
+        "en": "Do 10 push ups or your right neighbour will tell you how much you have to drink."
     },
     {
         "hu": "Érintsd meg az orrod a nyelveddel vagy igyál hármat!",
-        "en": "%NAME%: Touch your nose with your tongue."
+        "en": "Touch your nose with your tongue."
     },
     {
         "hu": "Játssz egy 3 körös kő-papír-ollót a bal szomszédoddal! A vesztes iszik két felest.",
-        "en": "%NAME%: Play a rock-paper-scrissors match with your left neightbour. The loser drinks 3."
+        "en": "Play a rock-paper-scrissors match with your left neightbour. The loser drinks 3."
     },
     {
         "hu": "Válassz egy segítőt és mutass be 10 szexpózt vagy igyál egy rövidet!",
-        "en": "%NAME%: Choose an assistant player and show 10 positions or drink a shot."
+        "en": "Choose an assistant player and show 10 positions or drink a shot."
     },
     {
         "hu": "Állj kézen, vagy igyál egy rövidet!",
-        "en": "%NAME%: Stand on your hands or drink a shot."
+        "en": "Stand on your hands or drink a shot."
     },
     {
         "hu": "Nyald meg a könyököd! Ha nem tudod, annyit iszol, amennyit a jobbra ülő mond.",
-        "en": "%NAME%: Lick your elbow or your right neighbour will tell you how much you have to drink."
+        "en": "Lick your elbow or your right neighbour will tell you how much you have to drink."
     },
     {
         "hu": "Tartsd vissza a lélegzeted 30 másodpercre, vagy igyál kettőt!",
-        "en": "%NAME%: Hold your breath for 15 seconds or drink one."
+        "en": "Hold your breath for 15 seconds or drink one."
     },
     {
         "hu": "Mondd ki: 'Cirkuszi csibecombcsont'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: 'She sells seashells by the seashore '. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: 'She sells seashells by the seashore '. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'Jobb egy lúdnyak tíz tyúknyaknál'!  Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: 'How can a clam cram in a clean cream can? '. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: 'How can a clam cram in a clean cream can? '. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'Luxusmoszkvicskisbusz-slusszkulcs'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: ' Can you can a can as a canner can can a can?'. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: ' Can you can a can as a canner can can a can?'. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'Nem minden csacsi csöcse csecse, csak a csecse csöcsű csacsi csöcse csecse, mert ha minden csacsi csöcse csecse volna, akkor minden csacsi csecse csöcsű csacsi volna.'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: ' I saw a kitten eating chicken in the kitchen'. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: ' I saw a kitten eating chicken in the kitchen'. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'Lenin mauzóleumának millenniumi lelinóleumozása.'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: ' I wish to wash my Irish wristwatch'. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: ' I wish to wash my Irish wristwatch'. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'A kövér kuvik a vak kivi kovakövére kíváncsi.'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: 'Near an ear, a nearer ear, a nearly eerie ear '. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: 'Near an ear, a nearer ear, a nearly eerie ear '. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'Peckes cickány-fickó picike kocka-vacka.'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: 'Nine nice night nurses nursing nicely '. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: 'Nine nice night nurses nursing nicely '. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'Száz sasszem meg száz sasszem az sok száz sasszem.'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: 'Four fine fresh fish for you '. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: 'Four fine fresh fish for you '. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'Nappal a lapp pap a lapp paplak nappalijában pipál.'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: ' We surely shall see the sun shine soon'. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: ' We surely shall see the sun shine soon'. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'Stresszes, strasszos strucc-sztreccscucc.'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: 'Fred fed Ted bread, and Ted fed Fred bread '. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: 'Fred fed Ted bread, and Ted fed Fred bread '. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'Csendes csiga csinosítgat kicsi csodás házacskáján.'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: 'I slit the sheet, the sheet I slit, and on the slitted sheet I sit '. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: 'I slit the sheet, the sheet I slit, and on the slitted sheet I sit '. If you cannot say it, drink 1."
     },
     {
         "hu": "Mondd ki: 'Jól járnak a molnárok mikor jó nyár jár rájok.'! Ha nem megy, iszol!",
-        "en": "%NAME%'s tongue-twister: ' Lesser leather never weathered wetter weather better'. If you cannot say it, drink 1."
+        "en": "'s tongue-twister: ' Lesser leather never weathered wetter weather better'. If you cannot say it, drink 1."
     },
     {
         "hu": "Guggolj le 5-ször, és  minden guggolás után igyál egy kortyot! Ha nem akarsz mozogni, akkor igyál egy rövidet!",
-        "en": "%NAME%: Do 5 squats. Drink a sip after each one."
+        "en": "Do 5 squats. Drink a sip after each one."
     },
     {
         "hu": "Mindenki álljon fel! Kinyújtott lábbal érintsétek meg a lábujjaitokat! Akinek nem sikerül, iszik.",
@@ -1425,330 +1425,330 @@
     },
     {
         "hu": "Énekelj valamit Lady Gagatól! Ha nem tudsz, igyál egy rövidet!",
-        "en": "%NAME%: Sing a song from Lady Gaga or drink a shot."
+        "en": "Sing a song from Lady Gaga or drink a shot."
     },
     {
         "hu": "Énekelj valamit Győzikétől! Ha nem tudsz, igyál egy rövidet!",
-        "en": "%NAME%: Sing a song from Pitbull or drink a shot."
+        "en": "Sing a song from Pitbull or drink a shot."
     },
     {
         "hu": "A telefon tulajdonosa 25-öt iszik vagy beköveti az ivosjatek.hu Instagram oldalát.",
-        "en": "%NAME%: The owner of the phone drinks 25 sips or follows the Instagram profile of ivosjatek.hu"
+        "en": "The owner of the phone drinks 25 sips or follows the Instagram profile of ivosjatek.hu"
     },
     {
         "hu": "Kinek dolgoznál inkább, a bal vagy a jobb szomszédodnak?",
-        "en": "%NAME%: Who would you rather work for, the player to your right? Or to your left?"
+        "en": "Who would you rather work for, the player to your right? Or to your left?"
     },
     {
         "hu": "Öleld meg az egyik szomszédod!",
-        "en": "%NAME%: Hug your neighbours."
+        "en": "Hug your neighbours."
     },
     {
         "hu": "Cserélj el egy ruhadarabot egy ellenkező nemű szomszédoddal vagy igyál egyet!",
-        "en": "%NAME%: Swap a piece of clothing with the closest player of the opposite sex."
+        "en": "Swap a piece of clothing with the closest player of the opposite sex."
     },
     {
         "hu": "Énekelj valamit Zámbó Jimmytől! Ha nem tudsz, igyál egy rövidet!",
-        "en": "%NAME%: Sing a song from Justin Bieber or drink a shot."
+        "en": "Sing a song from Justin Bieber or drink a shot."
     },
     {
         "hu": "Énekelj valamit Kis Grófotól! Ha nem tudsz, igyál egy rövidet!",
-        "en": "%NAME%: Sing a song from Madonna or drink a shot."
+        "en": "Sing a song from Madonna or drink a shot."
     },
     {
         "hu": "Énekelj valamit az 'N Sync-től! Ha nem tudsz, igyál egy rövidet!",
-        "en": "%NAME%: Sing a song from Britney Spears or drink a shot."
+        "en": "Sing a song from Britney Spears or drink a shot."
     },
     {
         "hu": "Feküdj a padlón 10 másodpercig úgy, mint egy tengeri csillag, vagy igyál egy rövidet!",
-        "en": "%NAME%: Lay on the floor for 10 seconds or drink a shot."
+        "en": "Lay on the floor for 10 seconds or drink a shot."
     },
     {
         "hu": "Kösd be a szemed, amíg te nem jössz újra!",
-        "en": "%NAME%: Wear blindfold until your next round."
+        "en": "Wear blindfold until your next round."
     },
     {
         "hu": "Táncolj úgy, mint Michael Jackson, vagy igyál!",
-        "en": "%NAME%: Dance like Michael Jackson or drink one."
+        "en": "Dance like Michael Jackson or drink one."
     },
     {
         "hu": "Ha kocsmában vagytok, kérdezd meg a pultost, hogy szerinte részeg vagy-e, vagy  vegyél egy sört valakinek!",
-        "en": "%NAME%: Buy a beer for the drunkest player."
+        "en": "Buy a beer for the drunkest player."
     },
     {
         "hu": "Posztolj egy csücsörítős képet Instagramon/Facebookon, vagy igyál kettőt!",
-        "en": "%NAME%: Post a duckface photo on Instagram or drink 2."
+        "en": "Post a duckface photo on Instagram or drink 2."
     },
     {
         "hu": "Puszilj arcon minden játékost.",
-        "en": "%NAME%: Kiss all the players in the group on the cheek."
+        "en": "Kiss all the players in the group on the cheek."
     },
     {
         "hu": "Hívd fel egy családtagod, és kívánj boldog születésnapot, vagy igyál kettőt!",
-        "en": "%NAME%: Call a family member and wish 'Happy Brithday' or drink 2."
+        "en": "Call a family member and wish 'Happy Brithday' or drink 2."
     },
     {
         "hu": "Kioszthatsz a játékosok között annyi kortyot, ahány éves vagy.",
-        "en": "%NAME%: You can decide who drinks 3 sips."
+        "en": "You can decide who drinks 3 sips."
     },
     {
         "hu": "Tekerd be az arcod WC papírral 5 percre! (Hagyj helyet lélegezni!)",
-        "en": "%NAME%: Cover you face with toilet paper for 5 minutes. (leave out holes for oxigen)"
+        "en": "Cover you face with toilet paper for 5 minutes. (leave out holes for oxigen)"
     },
     {
         "hu": "A játékosok eldönthetik, kit kell megpuszilnod.",
-        "en": "%NAME%: The group decides who you'll have to kiss."
+        "en": "The group decides who you'll have to kiss."
     },
     {
         "hu": "Játssz el egy énekest szavak nélkül! Ha senki nem tudja kitalálni, igyál 3 kortyot!",
-        "en": "%NAME%: Impersonate an singer. If no one can guess who it is, drink 3 sips."
+        "en": "Impersonate an singer. If no one can guess who it is, drink 3 sips."
     },
     {
         "hu": "Játssz el egy színészt szavak nélkül! Ha senki nem tudja kitalálni ki az, igyál 3 kortyot!",
-        "en": "%NAME%: Impersonate an actor. If no one can guess who it is, drink 3 sips."
+        "en": "Impersonate an actor. If no one can guess who it is, drink 3 sips."
     },
     {
         "hu": "Bármit kérdezhetsz valamelyik szomszédodtól. Ha nem válaszol, iszik.",
-        "en": "%NAME%: You can ask anything from your neightbour. If they do not answer they have to drink."
+        "en": "You can ask anything from your neightbour. If they do not answer they have to drink."
     },
     {
         "hu": "Idézz valamit a Mónika Show-ból vagy igyál egyet!",
-        "en": "%NAME%: You can decide who drinks 1 shot."
+        "en": "You can decide who drinks 1 shot."
     },
     {
         "hu": "Hívj fel valakit és kérdezd meg, tud-e egy jó pornóoldalt! Ha nem mered, igyál egy rövidet!",
-        "en": "%NAME%: Call someone and ask about their favorit porn site. If you don't dare, drink a shot."
+        "en": "Call someone and ask about their favorit porn site. If you don't dare, drink a shot."
     },
     {
         "hu": "Adj egy bimbicsavarást a legközelebbi jobbra ülő bátor férfinak! Ha nem vállalja, mindketten igyatok egy rövidet! ",
-        "en": "%NAME%: You can decide who drinks 5 sips."
+        "en": "You can decide who drinks 5 sips."
     },
     {
         "hu": "Valaki rajzolhat egy pélót  az arcodra. Ha nem egyezel bele, igyál egy rövidet!",
-        "en": "%NAME%: Someone can draw a d!ck on your face or you drink one."
+        "en": "Someone can draw a d!ck on your face or you drink one."
     },
     {
         "hu": "Igyál annyiszor, ahány játékossal lefeküdnél.",
-        "en": "%NAME%: Drink for every person present you'd have sex with."
+        "en": "Drink for every person present you'd have sex with."
     },
     {
         "hu": "Válassz két játékost! Csapjanak egymás fenekére! Ha nem teszik, mindhárman igyatok egy rövidet!",
-        "en": "%NAME%: Choose two people so they hit each other in the butt."
+        "en": "Choose two people so they hit each other in the butt."
     },
     {
         "hu": "Hagyd valakinek, hogy megpaskolja a feneked, vagy igyál egyet!",
-        "en": "%NAME%: Let someone spank your ass or drink 3."
+        "en": "Let someone spank your ass or drink 3."
     },
     {
         "hu": "Vedd le a felsőd és pörgesd a fejed felett, vagy igyál kettőt!",
-        "en": "%NAME%: Take off your t-shirt and spin it or drink one."
+        "en": "Take off your t-shirt and spin it or drink one."
     },
     {
         "hu": "Meséld el a legfurcsább Kama Sutra pózt, amit kipróbáltál.",
-        "en": "%NAME%: Tell us the weirdest Kama Sutra position you have ever tried."
+        "en": "Tell us the weirdest Kama Sutra position you have ever tried."
     },
     {
         "hu": "Mutass rá 2 járékosra: akinek szerinted a leghosszabb és a legrövidebb,  de ne mondd meg melyik-melyik!",
-        "en": "%NAME%: Tell us the weirdest Kama Sutra position you have ever tried."
+        "en": "Tell us the weirdest Kama Sutra position you have ever tried."
     },
     {
         "hu": "Színlelj orgazmust, vagy iszol!",
-        "en": "%NAME%: Act like you have an orgasm or drink one."
+        "en": "Act like you have an orgasm or drink one."
     },
     {
         "hu": "Vegyél le egy ruhadarabot, vagy igyál kettőt!",
-        "en": "%NAME%: Take off a piece of cloth or drink 2."
+        "en": "Take off a piece of cloth or drink 2."
     },
     {
         "hu": "Igyál egy kortyot a balra ülő poharából!",
-        "en": "%NAME%: Drink one sip from the glass of your left neighbour."
+        "en": "Drink one sip from the glass of your left neighbour."
     },
     {
         "hu": "Igyál egy kortyot a jobbra ülő poharából!",
-        "en": "%NAME%: Drink one sip from the glass of your right neighbour."
+        "en": "Drink one sip from the glass of your right neighbour."
     },
     {
         "hu": "Igyál egy kortyot valaki poharából!",
-        "en": "%NAME%: Drink one sip from someone's glass."
+        "en": "Drink one sip from someone's glass."
     },
     {
         "hu": "Igyál egy-egy kortyot mindenki poharából!",
-        "en": "%NAME%: Drink one sip from everyone's glass."
+        "en": "Drink one sip from everyone's glass."
     },
     {
         "hu": "Igyál egy kortyot a szemben ülő poharából!",
-        "en": "%NAME%: Drink one sip from the glass of the opposite sitting player."
+        "en": "Drink one sip from the glass of the opposite sitting player."
     },
     {
         "hu": "Igyál egy-egy kortyot a két szomszédod poharából!",
-        "en": "%NAME%: Your neighbours drink."
+        "en": "Your neighbours drink."
     },
     {
         "hu": "Igyon mindkét szomszédod egy-egy kortyot a poharadból!",
-        "en": "%NAME%: Your neighbours drink 1 sip from your glass."
+        "en": "Your neighbours drink 1 sip from your glass."
     },
     {
         "hu": "Lefetyeld a piád, mint egy kutya vagy igyál egy rövidet!",
-        "en": "%NAME%: Drink like a dog or drink a shot."
+        "en": "Drink like a dog or drink a shot."
     },
     {
         "hu": "Cserélj italt az egyik szomszédoddal!",
-        "en": "%NAME%: Swap glass with your neighbour."
+        "en": "Swap glass with your neighbour."
     },
     {
         "hu": "Dobj fel egy érmét! Ha fej, idd ki az egész poharad, ha írás, a szomszédaid tegyék ugyanezt!",
-        "en": "%NAME%: Head or tails? If head you drink the whole glass, if tail your neighbours do so."
+        "en": "Head or tails? If head you drink the whole glass, if tail your neighbours do so."
     },
     {
         "hu": "Idd ki a poharad!",
-        "en": "%NAME%: Make your glass empty!"
+        "en": "Make your glass empty!"
     },
     {
         "hu": "A balra ülő játékos bármilyen piát önthet a poharadba.",
-        "en": "%NAME%: Your left neighbour can choose your next drink."
+        "en": "Your left neighbour can choose your next drink."
     },
     {
         "hu": "Kioszthatsz 10 kortyot a játékosok között.",
-        "en": "%NAME%: You can give 10 sips for the other players."
+        "en": "You can give 10 sips for the other players."
     },
     {
         "hu": "Válassz egy másik kártyát, vagy igyál egyet!",
-        "en": "%NAME%: Draw a new card or drink 10."
+        "en": "Draw a new card or drink 10."
     },
     {
         "hu": "Mostantól ivás előtt körbe kell nyalnod a poharad!  Ha elfelejted, duplán iszol.",
-        "en": "%NAME%: New rule: you have to lick your glass before you drink. If you forget, drink twice."
+        "en": "New rule: you have to lick your glass before you drink. If you forget, drink twice."
     },
     {
         "hu": "Mostantól csak bal kézzel foghatod meg a poharat! Ha elfelejted, duplán iszol.",
-        "en": "%NAME%: New rule: you can touch your glass only with left hand. If you forget, drink twice."
+        "en": "New rule: you can touch your glass only with left hand. If you forget, drink twice."
     },
     {
         "hu": "Mostantól csak jobb kézzel foghatod meg a poharat!  Ha elfelejted, duplán iszol.",
-        "en": "%NAME%: New rule: you can touch your glass only with right hand. If you forget, drink twice."
+        "en": "New rule: you can touch your glass only with right hand. If you forget, drink twice."
     },
     {
         "hu": "Mostantól minden ivás előtt fel kell állnod! Ha elfelejted, duplán iszol.",
-        "en": "%NAME%: New rule: you have to stand up before you drink. If you forget, drink twice."
+        "en": "New rule: you have to stand up before you drink. If you forget, drink twice."
     },
     {
         "hu": "Mostantól minden ivás előtt azt kell mondanod: 'Ámen'! Ha elfelejted, duplán iszol.",
-        "en": "%NAME%: New rule: you have to say 'Amen' before you drink. If you forget, drink twice."
+        "en": "New rule: you have to say 'Amen' before you drink. If you forget, drink twice."
     },
     {
         "hu": "Mostantól minden ivás előtt azt kell mondanod: 'Jézus teste'! Ha elfelejted, duplán iszol.",
-        "en": "%NAME%: New rule: you have to clap before you drink. If you forget, drink twice."
+        "en": "New rule: you have to clap before you drink. If you forget, drink twice."
     },
     {
         "hu": "Mostantól minden ivás előtt azt kell mondanod: 'Áldás békesség, málnás édesség'! Ha elfelejted, duplán iszol.",
-        "en": "%NAME%: New rule: you have say 'Easy peasy, lemon squeezy' before you drink. If you forget, drink twice."
+        "en": "New rule: you have say 'Easy peasy, lemon squeezy' before you drink. If you forget, drink twice."
     },
     {
         "hu": "Mostantól minden ivás előtt azt kell mondanod: 'Fenékig'! Ha elfelejted, duplán iszol.",
-        "en": "%NAME%: New rule: you have say 'Cheers' before you drink. If you forget, drink twice."
+        "en": "New rule: you have say 'Cheers' before you drink. If you forget, drink twice."
     },
     {
         "hu": "Új szabály! Egy körön át, aki hozzáér a telefonjához, az iszik!",
-        "en": "%NAME%: New rule: for one round if anyone checks their phone they must drink."
+        "en": "New rule: for one round if anyone checks their phone they must drink."
     },
     {
         "hu": "Új szabály! Mostantól a fiúk csak azt ihatják, amit a lányok mondanak.",
-        "en": "%NAME%: New rule: until the end of the game, the guys can only drink what the girls tell them to."
+        "en": "New rule: until the end of the game, the guys can only drink what the girls tell them to."
     },
     {
         "hu": "Új szabály! Aki mostantól az asztalhoz ér, iszik egyet!",
-        "en": "%NAME%: New rule: if someone touches the table, they have to drink."
+        "en": "New rule: if someone touches the table, they have to drink."
     },
     {
         "hu": "Új szabály! Mostantól a bal szomszédod mondja meg, mit iszol.",
-        "en": "%NAME%: New rule: from now your right neighbour decides what you drink."
+        "en": "New rule: from now your right neighbour decides what you drink."
     },
     {
         "hu": "A többiek próbálják kitalálni a választ! Ha választanod kellene, melyiket választanád: soha többé nem ennél húst, vagy inkább nem innál alkoholt? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you stop eating meat or stop drinking alcohol? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you stop eating meat or stop drinking alcohol? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha választanod kellene, hogy kivel feküdj le, Natalie Portmant vagy Jennifer Anistont választanád? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you sleep with Natalie Portman or Jennifer Aniston? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you sleep with Natalie Portman or Jennifer Aniston? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha választanod kellene, hogy kivel tölts el egy kellemes estét,  Emma Watsont vagy Mila Kunist választanád? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you sleep with Emma Watson or Mila Kunis? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you sleep with Emma Watson or Mila Kunis? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha választanod kellene, hogy kivel feküdj le,  Brad Pittet vagy Jason Momoat választanád? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you sleep with Brad Pitt or Jason Momoa? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you sleep with Brad Pitt or Jason Momoa? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha választanod kellene, hogy kivel tölts el egy éjszakát, Ryan Reynoldsot vagy Bradley Coopert választanád? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you sleep with Ryan Reynolds or Bradley Cooper? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you sleep with Ryan Reynolds or Bradley Cooper? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha választanod kellene, hogy kivel feküdj le, Hugh Jackmant vagy Johnny Deppet választanád? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you sleep with Hugh Jackman or Johnny Depp? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you sleep with Hugh Jackman or Johnny Depp? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha választanod kellene, hogy kivel randizz, Ryan Goslingot vagy Bradley Coopert választanád? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you sleep with Ryan Reynolds or Bradley Cooper? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you sleep with Ryan Reynolds or Bradley Cooper? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha választanod kellene, hogy kivel tölts el egy estét, Channing Tatumöt vagy Chris Hemswortht választanád? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you sleep with Channing Tatum or Chris Hemsworth? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you sleep with Channing Tatum or Chris Hemsworth? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha választanod kellene, hogy kivel bulizz át egy egész hetet, David Beckhamet vagy The Rockot választanád? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you sleep with David Beckham or The Rock? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you sleep with David Beckham or The Rock? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha ingyen lehetőséged lenne, megváltoztatnál-e magadon valamit egy plasztikai műtéttel? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had the possibility to change something on your body with a plactic surgery for free, would you do it? The other players guess. Who is wrong, has to drink."
+        "en": "If you had the possibility to change something on your body with a plactic surgery for free, would you do it? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha választanod kellene, akkor inkább megfeleznéd, vagy megdupláznád a súlyod? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you have the half or the double of your current weight? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you have the half or the double of your current weight? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Ha választanod kellene, akkor teljesen kopasz lennél, vagy inkább megennél egy élő csótányt? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you be rather bald or eat a living bug? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you be rather bald or eat a living bug? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "A többiek próbálják kitalálni! Szerinted a pornósok inkább színészek vagy prostituáltak? Aki rosszul tippel, az iszik!",
-        "en": "%NAME%: If you had to choose: would you be rather bald or eat a living bug? The other players guess. Who is wrong, has to drink."
+        "en": "If you had to choose: would you be rather bald or eat a living bug? The other players guess. Who is wrong, has to drink."
     },
     {
         "hu": "Olvasd fel hangosan, ha befejezted, akkor indul a játék! Aki először levesz három ruhadarabot, kioszthat 3 rövidet.",
-        "en": "%NAME%: Read loud: the first player who takes off 3 pieces of cloth can choose who drinks a shot."
+        "en": "Read loud: the first player who takes off 3 pieces of cloth can choose who drinks a shot."
     },
     {
         "hu": "Az legutolsó ember, aki felemeli a poharát, annak innia kell.",
-        "en": "%NAME%: the last person to raise their drink must take a drink."
+        "en": "the last person to raise their drink must take a drink."
     },
     {
         "hu": "Olvasd fel hangosan, ha befejezted, akkor indul a játék! Aki először megissza, ami a poharában van, választhat, ki igyon egy rövidet.",
-        "en": "%NAME%: Read loud: the first player who makes their glass empty can choose who drinks a shot."
+        "en": "Read loud: the first player who makes their glass empty can choose who drinks a shot."
     },
     {
         "hu": "Olvasd fel hangosan, ha befejezted, indul a játék! Aki először megmondja hol születtél, választhat, ki igyon egy rövidet.",
-        "en": "%NAME%: Read loud: the first player who tells where were you born can choose who drinks a shot."
+        "en": "Read loud: the first player who tells where were you born can choose who drinks a shot."
     },
     {
         "hu": "Olvasd fel hangosan, ha befejezted, indul a játék! Aki először megmondja melyik évben születtél, választhat, ki igyon egy rövidet.",
-        "en": "%NAME%: Read loud: the first player who tells which year did you born can choose who drinks a shot."
+        "en": "Read loud: the first player who tells which year did you born can choose who drinks a shot."
     },
     {
         "hu": "Olvasd fel hangosan, ha befejezted, indul a játék! Aki először kimondja a nevedet visszafelé,  választhat, ki igyon egy rövidet.",
-        "en": "%NAME%: Read loud: the first player who tells your name backwards can choose who drinks a shot."
+        "en": "Read loud: the first player who tells your name backwards can choose who drinks a shot."
     },
     {
         "hu": "Olvasd fel hangosan, ha befejezted, indul a játék! Aki először talál egy háromszög alakú tárgyat, választhat, hogy ki igyon egy rövidet.",
-        "en": "%NAME%: Read loud: the first player who finds a triangle shaped object can choose who drinks a shot."
+        "en": "Read loud: the first player who finds a triangle shaped object can choose who drinks a shot."
     },
     {
         "hu": "Olvasd fel hangosan, ha befejezted, indul a játék! Aki először talál egy sárga színű tárgyat, választhat, hogy ki igyon egy rövidet.",
-        "en": "%NAME%: Read loud: the first player finds a yellow object can choose who drinks a shot."
+        "en": "Read loud: the first player finds a yellow object can choose who drinks a shot."
     },
     {
         "hu": "Olvasd fel hangosan, ha befejezted, indul a játék! Aki először megnyalja a könyökét, kioszthat 20 kortyot a játékosok között.",
-        "en": "%NAME%: Read loud: the first player who licks their elbow can choose who drinks a shot."
+        "en": "Read loud: the first player who licks their elbow can choose who drinks a shot."
     }
 ]
