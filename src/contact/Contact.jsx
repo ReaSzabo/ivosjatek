@@ -60,7 +60,7 @@ class Contact extends Component {
                 <input type="checkbox" />
                 <span className="contact__shadow-form-tos-checkbox-checkmark"></span>
                 <span className="contact__shadow-form-tos-checkbox-text">
-                  &nbsp; Persze, elfogadom a felhasználási feltételeket !
+                  Persze, elfogadom a felhasználási feltételeket !
                 </span>
               </label>
             </holder>

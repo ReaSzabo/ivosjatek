@@ -1,6 +1,10 @@
-.contact {
+body,
+html {
   background: url("../assets/images/contact/backg.webp");
-  background-size: cover;
+  height: 100%;
+}
+
+.contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -270,5 +274,59 @@
 
   ::placeholder {
     color: rgb(236, 182, 3);
+  }
+}
+
+@media (max-width: 800px) {
+
+  .contact {
+    &__shadow {
+      flex-direction: column;
+      flex-flow: column-reverse;
+
+      &-form {
+        border-radius: 0px;
+
+      }
+
+      &-image {
+        width: 706px;
+        height: 800px;
+        border: 2px solid #fff1ff;
+        border-radius: 0px;
+      }
+    }
+  }
+
+  @media (max-width: 700px) {
+
+    .contact {
+
+      &__shadow-form {
+        width: 350px;
+
+        &-paragraph {
+          text-align: center;
+        }
+
+        &-button-holder {
+          justify-content: space-around;
+          padding-bottom: 25px;
+
+          &-button {
+            margin: 0;
+          }
+        }
+
+      }
+
+      &__shadow-image {
+        width: 350px;
+        height: 450px;
+        object-fit: contain;
+
+      }
+
+    }
   }
 }
