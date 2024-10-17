@@ -14,11 +14,16 @@
         z-index: 0;
         font-family: "Montserrat", sans-serif;
         font-variant-caps: all-small-caps;
+
     }
 
     @media (max-width: 1060px) {
         &__elements {
             flex-direction: column;
+
+            a:nth-child(2) {
+                order: 1;
+            }
         }
     }
 }
