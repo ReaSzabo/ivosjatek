@@ -17,6 +17,8 @@
     align-items: center;
     flex-direction: row;
     box-shadow: rgb(197, 0, 251) 0px 7px 29px 0px;
+    animation: slideInLeft;
+    animation-duration: 1s;
 
     &-description {
       height: 90vh;
@@ -74,7 +76,7 @@
           top: 0;
           width: 100%;
           height: 100%;
-          line-height: 2.8em;
+          line-height: 48px;
           border-radius: 40em;
           border: none;
           background: linear-gradient(rgba(255, 255, 255, 0.473),
@@ -157,5 +159,32 @@
       border-right: 2px solid rgb(255, 241, 255);
       border-bottom: 2px solid rgb(255, 241, 255);
     }
+  }
+
+
+  @media (max-width: 700px) {
+    &__shadow-description {
+      height: 650px;
+      width: 370px;
+      border-radius: 0px;
+
+      &-title {
+        padding-bottom: 0px;
+      }
+
+      &-button {
+        margin-top: 15px;
+      }
+
+      &-text {
+        font-size: 13px;
+      }
+
+    }
+
+    &__shadow-first-section {
+      display: none;
+    }
+
   }
 }
