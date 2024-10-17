@@ -34,6 +34,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 22px;
 
     img {
       object-fit: cover;
@@ -159,13 +160,6 @@
 
   .next-button:active {
     border: 2px solid white;
-  }
-
-  @media (max-width: 1060px) {
-    &__face {
-      font-size: 22px;
-    }
-
   }
 
 }
