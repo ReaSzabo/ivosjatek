@@ -31,11 +31,18 @@
     transition: 1s ease-in-out;
     transform: rotateY(0deg);
     padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     img {
       object-fit: cover;
       border: 2px solid rgb(255, 241, 255);
       box-shadow: rgb(197, 0, 251) 0px 7px 29px 0px;
+      width: 329px;
+      height: 495px;
+      border-radius: 7px;
+      position: absolute;
     }
 
     &--back {
@@ -152,6 +159,13 @@
 
   .next-button:active {
     border: 2px solid white;
+  }
+
+  @media (max-width: 1060px) {
+    &__face {
+      font-size: 18px;
+    }
+
   }
 
 }

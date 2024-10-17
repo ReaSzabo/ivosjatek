@@ -187,6 +187,7 @@ class Game extends Component {
         </a>
         <div
           onClick={this.setOnCardClick}
+          style={{ animation: "bounceIn", animationDuration: "1s" }}
         >
           <GameCard
             text={this.state.currentQuestion}

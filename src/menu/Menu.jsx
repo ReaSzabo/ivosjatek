@@ -46,7 +46,7 @@ class Menu extends Component {
             ></Card>
           </a>
         </div>
-      </div>
+      </div >
     );
   }
 }

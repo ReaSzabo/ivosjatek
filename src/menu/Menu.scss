@@ -15,4 +15,10 @@
         font-family: "Montserrat", sans-serif;
         font-variant-caps: all-small-caps;
     }
+
+    @media (max-width: 1060px) {
+        &__elements {
+            flex-direction: column;
+        }
+    }
 }

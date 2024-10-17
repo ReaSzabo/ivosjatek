@@ -1,5 +1,7 @@
 import { Component } from "react";
 import "./Card.scss";
+import 'animate.css';
+
 
 class Card extends Component {
   render() {
