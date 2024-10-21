@@ -14,16 +14,7 @@ class Menu extends Component {
     return (
       <div className="menu-container">
         <div className="menu-container__elements">
-          <CookieConsent
-            location="bottom"
-            buttonText="Hát persze!!"
-            cookieName="myAwesomeCookieName2"
-            style={{ background: "#ecb603" }}
-            buttonStyle={{ background: "#fff1ff", color: "#02a4d1", borderRadius: "4px", fontSize: "13px", fontFamily: "Montserrat, sans-serif", fontVariant: "all-small-caps" }}
-            expires={150}
-          >
-            Sütiket (cookie-kat) használunk a választott nyelv mentéséhez. Hozzájárulsz?
-          </CookieConsent>
+
           <a href="#/OtherGames">
             <Card
               image={cat}
@@ -45,6 +36,16 @@ class Menu extends Component {
               caption="Kapcsolat"
             ></Card>
           </a>
+          <CookieConsent
+            location="bottom"
+            buttonText="Hát persze!!"
+            cookieName="myAwesomeCookieName2"
+            style={{ background: "#ecb603" }}
+            buttonStyle={{ background: "#fff1ff", color: "#02a4d1", borderRadius: "4px", fontSize: "13px", fontFamily: "Montserrat, sans-serif", fontVariant: "all-small-caps" }}
+            expires={150}
+          >
+            Sütiket (cookie-kat) használunk a választott nyelv mentéséhez. Hozzájárulsz?
+          </CookieConsent>
         </div>
       </div >
     );
