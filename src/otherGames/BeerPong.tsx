@@ -1,5 +1,5 @@
 import { Component } from "react";
-import OtherGame from "./OtherGame.jsx";
+import OtherGame from "./OtherGame";
 
 class BeerPong extends Component {
   render() {
@@ -15,7 +15,6 @@ class BeerPong extends Component {
         A játék játszható különböző tartalmú poharakkal is (pl. sör és fröccs). 
         A poharak elrendezése ugyanaz, mint a sörpongnál, 
         viszont a fröccs és a sör aránya csakis rajtatok áll."
-        picture="../assets/images/otherGames/img_11.webp"
       ></OtherGame>
     );
   }

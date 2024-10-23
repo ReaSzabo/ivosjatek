@@ -1,5 +1,5 @@
 import { Component } from "react";
-import OtherGame from "./OtherGame.jsx";
+import OtherGame from "./OtherGame";
 
 class OneTrueOneFalse extends Component {
   render() {
@@ -12,7 +12,6 @@ class OneTrueOneFalse extends Component {
         a másik pedig hamis. Miután meghallgattátok a két történetet, tippelnetek kell, vajon melyik igaz, és melyik kamu. 
         A rosszul tippelőknek le kell húzniuk, ami előttük van (lehet sör, bor, tömény is). 
         Ha azonban mindenki rájött az igazságra, akkor a bénán kamuzó mesélőnek kell a pohara fenekére néznie."
-        picture="../assets/images/otherGames/img_16.webp"
       ></OtherGame>
     );
   }

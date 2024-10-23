@@ -1,5 +1,5 @@
 import { Component } from "react";
-import OtherGame from "./OtherGame.jsx";
+import OtherGame from "./OtherGame";
 
 class KingsCup extends Component {
   render() {
@@ -15,7 +15,6 @@ class KingsCup extends Component {
              Léteznek Kings Cup nevű, angol nyelvű applikációk is. 
              Ezekben a kártyák felett megjelennek a szabályok is, 
              így nem kell neked kitalálnod őket."
-        picture="../assets/images/otherGames/img_1.webp"
       ></OtherGame>
     );
   }

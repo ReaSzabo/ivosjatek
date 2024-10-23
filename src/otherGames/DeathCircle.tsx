@@ -1,5 +1,5 @@
 import { Component } from "react";
-import OtherGame from "./OtherGame.jsx";
+import OtherGame from "./OtherGame";
 
 class DeathCircle extends Component {
   render() {
@@ -12,7 +12,6 @@ class DeathCircle extends Component {
         (pl. pirosnál a lapot húzó, hetesnél a fiúk, nyolcasnál a lányok stb.). 
         Kilencesnél egy szót kell bemondani, és mindenkinek kell rá mondani egy rímet. 
         Aki nem tud, iszik"
-        picture="../assets/images/otherGames/img_13.webp"
       ></OtherGame>
     );
   }

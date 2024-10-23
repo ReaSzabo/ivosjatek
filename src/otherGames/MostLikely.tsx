@@ -1,5 +1,5 @@
 import { Component } from "react";
-import OtherGame from "./OtherGame.jsx";
+import OtherGame from "./OtherGame";
 
 class MostLikely extends Component {
   render() {
@@ -13,7 +13,6 @@ class MostLikely extends Component {
         Ezután háromra mindenki arra a személyre mutat, 
         aki szerinte a legvalószínűbb. Akire a legtöbben mutatnak, 
         az iszik és annyit, ahányan mutattak rá."
-        picture="../assets/images/otherGames/img_6.webp"
       ></OtherGame>
     );
   }

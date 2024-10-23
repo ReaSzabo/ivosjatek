@@ -1,5 +1,5 @@
 import { Component } from "react";
-import OtherGame from "./OtherGame.jsx";
+import OtherGame from "./OtherGame";
 
 class Djibouti extends Component {
   render() {
@@ -20,7 +20,6 @@ class Djibouti extends Component {
         elfelejted, hogy megfordult a sorrend. 
         Aki hibázik, annak le kell húznia egy pohár előre kitöltött italt, 
         ami lehet rövid is..."
-        picture="../assets/images/otherGames/img_15.webp"
       ></OtherGame>
     );
   }

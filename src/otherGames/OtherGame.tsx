@@ -19,9 +19,16 @@ import image_16 from "../assets/images/otherGames/img_16.webp";
 import image_17 from "../assets/images/otherGames/img_17.webp";
 import image_18 from "../assets/images/otherGames/img_18.webp";
 
-class OtherGame extends Component {
+
+interface IProps {
+  title: string,
+  subtitle: string,
+  text: string,
+}
+
+class OtherGame extends Component<IProps> {
   getPic() {
-    if (this.props.title == "Kings Cup") {
+    if (this.props.title === "Kings Cup") {
       return image_1;
     } else if (this.props.title === "Thumper") {
       return image_2;
@@ -62,7 +69,7 @@ class OtherGame extends Component {
 
   render() {
     return (
-      <container className="other-game">
+      <div className="other-game">
         <div className="other-game__shadow">
           <div className="other-game__shadow-description">
             <h1 className="other-game__shadow-description-title">{this.props.title}</h1>
@@ -71,7 +78,7 @@ class OtherGame extends Component {
             </h2>
             <p className="other-game__shadow-description-text">{this.props.text}</p>
             <a href="#/OtherGames">
-              <button className="other-game__shadow-description-button" type="description__submit">
+              <button className="other-game__shadow-description-button" type="submit">
                 <span className="other-game__shadow-description-button-text"> vissza </span>
                 <span className="other-game__shadow-description-button-blob"></span>
                 <span className="other-game__shadow-description-button-blob"></span>
@@ -86,7 +93,7 @@ class OtherGame extends Component {
             style={{ backgroundImage: `url('${this.getPic()}')` }}
           ></div>
         </div>
-      </container>
+      </div>
     );
   }
 }

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import OtherGame from "./OtherGame.jsx";
+import OtherGame from "./OtherGame";
 
 class INeverHaveEver extends Component {
   render() {
@@ -15,7 +15,6 @@ class INeverHaveEver extends Component {
         akkor mindazok, akiket már igen, isznak. A legfontosabb, hogy 
         a barátaid elismerjék a ciki sztorikat is, így gondold meg, 
         mit mondasz."
-        picture="../assets/images/otherGames/img_10.webp"
       ></OtherGame>
     );
   }

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import OtherGame from "./OtherGame.jsx";
+import OtherGame from "./OtherGame";
 
 class UnflinchingFace extends Component {
   render() {
@@ -11,8 +11,6 @@ class UnflinchingFace extends Component {
       Egyikőtök vicces vagy figyelemfelkeltő mondatokat ír papírcetlikre, miközben mindenki rezzenéstelen arccal ül. 
       Ezután minden játékos felvesz egy papírt és megpróbálja megőrizni rezzenéstelen arckifejezését. 
       Akinek nem sikerül vagy bármilyen reakciót mutat, innia kell."
-        picture="../assets/images/otherGames/img_3.webp"
-
       ></OtherGame>
     );
   }

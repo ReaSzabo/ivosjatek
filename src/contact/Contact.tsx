@@ -3,7 +3,7 @@ import "./Contact.scss";
 
 class Contact extends Component {
 
-  handleSubmit = (event) => {
+  handleSubmit = (event: any) => {
     event.preventDefault();
     fetch("https://formspree.io/f/xjvnrgon", {
       method: "POST",
@@ -22,14 +22,14 @@ class Contact extends Component {
 
   render() {
     return (
-      <container className="contact">
+      <div className="contact">
         <div className="contact__shadow">
-          <form class="contact__shadow-form" onSubmit={this.handleSubmit}>
+          <form className="contact__shadow-form" onSubmit={this.handleSubmit}>
             <h1>Í R J &nbsp; N E K Ü N K</h1>
             <p className="contact__shadow-form-paragraph"> Kérdésed vagy javaslatod van? Vedd fel velünk a kapcsolatot!</p>
-            <box className="contact__shadow-form-box">
+            <div className="contact__shadow-form-box">
               <label htmlFor="name">Név</label>
-            </box>
+            </div>
             <input
               className="contact__shadow-form-input"
               type="text"
@@ -37,9 +37,9 @@ class Contact extends Component {
               placeholder="ide írd a neved"
             />
             <br />
-            <box className="contact__shadow-form-box">
+            <div className="contact__shadow-form-box">
               <label htmlFor="email">E-mail</label>
-            </box>
+            </div>
             <input
               className="contact__shadow-form-input"
               type="email"
@@ -47,15 +47,15 @@ class Contact extends Component {
               placeholder="adj meg egy érvényes e-mail címet"
             />
             <br />
-            <box className="contact__shadow-form-box">
+            <div className="contact__shadow-form-box">
               <label htmlFor="message">Üzenet</label>
-            </box>
+            </div>
             <textarea
               className="contact__shadow-form-message"
               name="message"
               placeholder="ide jöhet az üzeneted" />
             <br />
-            <holder className="contact__shadow-form-tos">
+            <div className="contact__shadow-form-tos">
               <label className="contact__shadow-form-tos-checkbox">
                 <input type="checkbox" />
                 <span className="contact__shadow-form-tos-checkbox-checkmark"></span>
@@ -63,9 +63,9 @@ class Contact extends Component {
                   Persze, elfogadom a felhasználási feltételeket !
                 </span>
               </label>
-            </holder>
+            </div>
             <br />
-            <holder className="contact__shadow-form-button-holder">
+            <div className="contact__shadow-form-button-holder">
               <button className="contact__shadow-form-button-holder-button" type="submit">
                 <span className="contact__shadow-form-button-holder-button-text"> küldés </span>
                 <span className="contact__shadow-form-button-holder-button-blob"></span>
@@ -82,11 +82,11 @@ class Contact extends Component {
                   <span className="contact__shadow-form-button-holder-button-blob"></span>
                 </button>
               </a>
-            </holder>
+            </div>
           </form>
           <div className="contact__shadow-image"></div>
         </div>
-      </container>
+      </div>
     );
   }
 }

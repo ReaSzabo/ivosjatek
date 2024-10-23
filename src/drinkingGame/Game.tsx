@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./Game.scss";
-import GameCard from "./GameCard.jsx";
+import GameCard from "./GameCard";
 import questionArray from "./questions.json";
 
 import bf1 from "../assets/images/game/backface_images/backface_1.webp";
@@ -103,26 +103,10 @@ import bf97 from "../assets/images/game/backface_images/backface_97.webp";
 import bf98 from "../assets/images/game/backface_images/backface_98.webp";
 
 
-
-
-
-
-
-
-// importáljuk a képeket
-// a kérdések mintájára létrehozunk egy images tömböt a stateben, amiben az összes kép benne van
-// az importált képeket változókként kezeljük
-// a currentQuestion mintájára létrehozunk egy currentImage state-t
-// mindig a kártyakattintás során akarjuk kicserélni a képeket
-// mindig egy random képet szeretnénk a currentQuestion helyére
-// nem szükséges a képek tömbből kivenni a már felhasznált képeket
-// a currentImage-t átadjuk a GameCard componentnek - valahogy ;)
-// a GameCard componentben felhasználjuk a megkapott currentImaget
-
 class Game extends Component {
   state = {
     questions: questionArray,
-    currentQuestion: null,
+    currentQuestion: "",
     isFlipped: false,
     backfaceImages: [bf1, bf2, bf3, bf4, bf5, bf6, bf7, bf8, bf9, bf10,
       bf11, bf12, bf13, bf14, bf15, bf16, bf17, bf18, bf19, bf20,
@@ -177,12 +161,12 @@ class Game extends Component {
     return (
       <div className="game-container">
         <a href="#/">
-          <button class="game-container__back-button">
-            <span class="game-container__back-button-text"> vissza </span>
-            <span class="game-container__back-button-blob"></span>
-            <span class="game-container__back-button-blob"></span>
-            <span class="game-container__back-button-blob"></span>
-            <span class="game-container__back-button-blob"></span>
+          <button className="game-container__back-button">
+            <span className="game-container__back-button-text"> vissza </span>
+            <span className="game-container__back-button-blob"></span>
+            <span className="game-container__back-button-blob"></span>
+            <span className="game-container__back-button-blob"></span>
+            <span className="game-container__back-button-blob"></span>
           </button>
         </a>
         <div
@@ -193,8 +177,7 @@ class Game extends Component {
             text={this.state.currentQuestion}
             isFlipped={this.state.isFlipped}
             image={this.state.currentBackfaceImage}
-          >
-          </GameCard>
+          ></GameCard>
         </div>
       </div>
     );

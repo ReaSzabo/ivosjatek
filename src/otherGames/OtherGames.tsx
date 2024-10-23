@@ -50,11 +50,11 @@ class OtherGames extends Component {
       <div className="background">
         <a href="#/">
           <button type="button">
-            <span class="text"> vissza </span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
-            <span class="blob"></span>
+            <span className="text"> vissza </span>
+            <span className="blob"></span>
+            <span className="blob"></span>
+            <span className="blob"></span>
+            <span className="blob"></span>
           </button>
         </a>
         <div className="container">

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import OtherGame from "./OtherGame.jsx";
+import OtherGame from "./OtherGame";
 
 class DrawACardAndHope extends Component {
   render() {
@@ -27,7 +27,6 @@ class DrawACardAndHope extends Component {
         K: Ez a legizgalmasabb lap. Kijelölhetsz valakit, hogy minden alkalommal, amikor neked innod kell, ő is igyon. Ez az áldás (vagy átok) addig tart, amíg a pakli összes lapját el nem használjátok.
         
         A: Válassz egyet a lapok funkciói közül (kivéve: K)"
-        picture="../assets/images/otherGames/img_14.webp"
       ></OtherGame>
     );
   }

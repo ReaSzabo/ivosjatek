@@ -1,5 +1,5 @@
 import { Component } from "react";
-import OtherGame from "./OtherGame.jsx";
+import OtherGame from "./OtherGame";
 
 class Bumm extends Component {
   render() {
@@ -12,7 +12,6 @@ class Bumm extends Component {
             kivéve a 7-et, annak többszöröseit (pl. 14, 21) és amiben benne van a szám 
             (pl. 17, 71, 77). Ebben az esetben azt mondja: bumm. 
             Aki elhibázza, iszik. Ilyen egyszerű."
-        picture="../assets/images/otherGames/img_5.webp"
       ></OtherGame>
     );
   }

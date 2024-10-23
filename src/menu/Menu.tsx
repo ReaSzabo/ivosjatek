@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./Menu.scss";
-import Card from "./Card.jsx";
+import Card from "./Card";
 import cat from "../assets/images/menu/cat.webp";
 import catRemoved from "../assets/images/menu/catRemoved.webp";
 import lion from "../assets/images/menu/lion.webp";
