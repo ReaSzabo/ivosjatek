@@ -4,8 +4,15 @@ import "./Contact.scss";
 class Contact extends Component {
 
   handleSubmit = (event: any) => {
+
     event.preventDefault();
-    fetch("https://formspree.io/f/xjvnrgon", {
+
+    if (new FormData(event.target).get("message") === "") {
+      alert("Az üzenet mező érdemi kitöltése szükséges a sikeres kapcsolatfelvételhez. Ha szeretnél nekünk üzenni, kérjük, pótold ezt a hiányosságot! :) ");
+      return;
+    }
+
+    fetch("https://formspree.io/f/xjvnrgon111", {
       method: "POST",
       body: new FormData(event.target),
       headers: {
@@ -13,7 +20,7 @@ class Contact extends Component {
       },
     })
       .then((response) => {
-        alert("siker");
+        alert("Az üzenetet sikeresen elküldted. Köszönjük! Igyekszünk a lehető leghamarabb reagálni rá. :)");
       })
       .catch((error) => {
         alert("nem sikerült");
