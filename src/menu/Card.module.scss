@@ -1,0 +1,104 @@
+.card {
+    position: relative;
+    width: 334px;
+    height: 500px;
+    border: 2px solid rgb(255, 241, 255);
+    box-shadow: rgb(197, 0, 251) 0px 7px 29px 0px;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+    color: rgb(2, 164, 209);
+    font-family: "Montserrat", sans-serif;
+    font-variant-caps: all-small-caps;
+    font-weight: 300;
+    background: rgb(45, 42, 42);
+    letter-spacing: 1px;
+
+    &__image-2d {
+        opacity: 100%;
+    }
+
+    &__image-3d {
+        opacity: 0;
+        transform: translateY(0);
+        transition: 0.1s;
+    }
+
+    &:hover &__image-2d {
+        opacity: 0;
+    }
+
+    &:hover &__image-3d {
+        opacity: 100;
+        width: 329px;
+        height: 525px;
+        transform: translateY(-25%);
+        transition: 0.5s;
+    }
+
+    &__caption {
+        position: absolute;
+        background-color: rgb(255, 241, 255);
+        font-size: 25px;
+        padding: 7px;
+        border-radius: 4px;
+        right: 0;
+        bottom: 64px;
+    }
+
+    &:hover &__caption {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+        color: rgb(236, 182, 3);
+    }
+
+    @media (min-width: 1061px) {
+        animation: swing;
+        animation-duration: 2s;
+    }
+
+    @media (max-width: 1060px) {
+        width: 334px;
+        height: 45px;
+        visibility: hidden;
+
+        &__caption {
+            width: 334px;
+            display: flex;
+            justify-content: center;
+            padding-right: 0;
+            padding-left: 0;
+            visibility: visible;
+            box-shadow: rgb(197, 0, 251) 0px 7px 29px 0px;
+            animation: fadeInUp;
+            animation-duration: 3s;
+        }
+
+        &__image-2d {
+            display: none;
+        }
+
+        &__image-3d {
+            display: none;
+        }
+
+        &:hover &__caption {
+            width: 334px;
+        }
+    }
+
+    img {
+        width: 329px;
+        height: 495px;
+        border-radius: 7px;
+        position: absolute;
+
+        @media (max-width: 1060px) {
+            display: none;
+
+        }
+    }
+}

@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./GameCard.scss";
+import styles from "./GameCard.module.scss";
 
 interface IProps {
   text: string,
@@ -11,17 +11,17 @@ class GameCard extends Component<IProps> {
 
   render() {
     return (
-      <div className={this.props.isFlipped ? "game-card" : "game-card makesItFlipping"}>
-        <div className="game-card__face game-card__face--back">
+      <div className={this.props.isFlipped ? styles["game-card"] : `${styles["game-card"]} ${styles["makesItFlipping"]}`}>
+        <div className={`${styles["game-card__face"]} ${styles["game-card__face--back"]}`}>
           <img src={this.props.image} alt="backface" />
         </div>
-        <div className="game-card__face game-card__face--front">{this.props.text}</div>
-        <button className="next-button" type="button">
-          <span className="button-text"> új </span>
-          <span className="button-blob"></span>
-          <span className="button-blob"></span>
-          <span className="button-blob"></span>
-          <span className="button-blob"></span>
+        <div className={`${styles["game-card__face"]} ${styles["game-card__face--front"]}`}>{this.props.text}</div>
+        <button className={styles["next-button"]} type="button">
+          <span className={styles["button-text"]}> új </span>
+          <span className={styles["button-blob"]}></span>
+          <span className={styles["button-blob"]}></span>
+          <span className={styles["button-blob"]}></span>
+          <span className={styles["button-blob"]}></span>
         </button>
       </div>
     );

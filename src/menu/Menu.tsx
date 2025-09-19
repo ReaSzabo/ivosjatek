@@ -1,41 +1,42 @@
 import { Component } from "react";
-import "./Menu.scss";
+import styles from "./Menu.module.scss";
 import Card from "./Card";
-import cat from "../assets/images/menu/cat.webp";
-import catRemoved from "../assets/images/menu/catRemoved.webp";
-import lion from "../assets/images/menu/lion.webp";
-import lionRemoved from "../assets/images/menu/lionRemoved.webp";
-import dog from "../assets/images/menu/dog.webp";
-import dogRemoved from "../assets/images/menu/dogRemoved.webp";
+import Link from 'next/link';
 import CookieConsent from "react-cookie-consent";
 
 class Menu extends Component {
   render() {
     return (
-      <div className="menu-container">
-        <div className="menu-container__elements">
+      <div className={styles["menu-container"]}>
+        <div className={styles["menu-container__elements"]}>
 
-          <a href="#/OtherGames">
-            <Card
-              image={cat}
-              imageRemoved={catRemoved}
-              caption="Más Ivós Játékok"
-            ></Card>
-          </a>
-          <a href="#/Game">
-            <Card
-              image={lion}
-              imageRemoved={lionRemoved}
-              caption="A Mi Ivós Játékunk"
-            ></Card>
-          </a>
-          <a href="#/Contact">
-            <Card
-              image={dog}
-              imageRemoved={dogRemoved}
-              caption="Kapcsolat"
-            ></Card>
-          </a>
+          <Link href="/OtherGames" legacyBehavior>
+            <a>
+              <Card
+                image="/assets/images/menu/cat.webp"
+                imageRemoved="/assets/images/menu/catRemoved.webp"
+                caption="Más Ivós Játékok"
+              />
+            </a>
+          </Link>
+          <Link href="/drinkingGame/Game" legacyBehavior>
+            <a>
+              <Card
+                image="/assets/images/menu/lion.webp"
+                imageRemoved="/assets/images/menu/lionRemoved.webp"
+                caption="Ivós Játék"
+              />
+            </a>
+          </Link>
+          <Link href="/contact" legacyBehavior>
+            <a>
+              <Card
+                image="/assets/images/menu/dog.webp"
+                imageRemoved="/assets/images/menu/dogRemoved.webp"
+                caption="Kapcsolat"
+              />
+            </a>
+          </Link>
           <CookieConsent
             location="bottom"
             buttonText="Hát persze!!"

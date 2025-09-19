@@ -1,5 +1,5 @@
 import { Component } from "react";
-import "./Card.scss";
+import styles from "./Card.module.scss";
 import 'animate.css';
 
 interface IProps {
@@ -11,10 +11,10 @@ interface IProps {
 class Card extends Component<IProps> {
   render() {
     return (
-      <div className="card">
-        <img className="card__image-2d" src={this.props.image} alt="card face" />
-        <img className="card__image-3d" src={this.props.imageRemoved} alt="moving card face" />
-        <div className="card__caption">{this.props.caption}</div>
+      <div className={styles.card}>
+        <img className={styles["card__image-2d"]} src={this.props.image} alt="card face" />
+        <img className={styles["card__image-3d"]} src={this.props.imageRemoved} alt="moving card face" />
+        <div className={styles["card__caption"]}>{this.props.caption}</div>
       </div>
     );
   }
