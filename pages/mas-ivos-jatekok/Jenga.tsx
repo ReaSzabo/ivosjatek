@@ -6,7 +6,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function JengaPage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/Jenga" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/Jenga"
+                title="Jenga - Ivós Játék"
+                description="A klasszikus Jenga ivós változata: minden kihúzott kockán feladat, aki ledönti a tornyot, iszik! Garantált nevetés és izgalom."
+            />
             <OtherGame
                 title="Jenga"
                 subtitle="Ami kell hozzá: italok és jenga"

@@ -4,7 +4,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function StuckTogetherPage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/StuckTogether" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/StuckTogether"
+                title="Összeragadva - Ivós Játék"
+                description="Páros ivós játék, ahol bizonyos testrészeket összekötve kell feladatokat végrehajtani. Ha nem sikerül, mindketten isztok!"
+            />
             <OtherGame
                 title="Összeragadva"
                 subtitle="Ez a játék szó szerint közelebb hoz titeket."

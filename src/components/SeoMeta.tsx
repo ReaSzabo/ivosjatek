@@ -2,9 +2,11 @@ import Head from 'next/head';
 
 type SeoMetaProps = {
     canonical?: string;
+    description?: string;
+    title?: string;
 };
 
-export default function SeoMeta({ canonical }: SeoMetaProps) {
+export default function SeoMeta({ canonical, description, title }: SeoMetaProps) {
     let canonicalUrl = canonical;
     if (!canonicalUrl) {
         if (typeof window !== 'undefined') {
@@ -13,6 +15,8 @@ export default function SeoMeta({ canonical }: SeoMetaProps) {
             canonicalUrl = 'https://ivosjatek.hu';
         }
     }
+    const metaDescription = description || 'A legjobb online Ivós Játék app és egyéb ivós játékok, kártyajátékok';
+    const metaTitle = title || 'Ivós Játék';
     return (
         <Head>
             {/* Canonical */}
@@ -24,9 +28,9 @@ export default function SeoMeta({ canonical }: SeoMetaProps) {
             {/* Theme color */}
             <meta name="theme-color" content="#000000" />
             {/* Description */}
-            <meta name="description" content="A legjobb online Ivós Játék app és egyéb ivós játékok, kártyajátékok" />
+            <meta name="description" content={metaDescription} />
             {/* Title (fallback, override per page if needed) */}
-            <title>Ivós Játék</title>
+            <title>{metaTitle}</title>
             {/* Fonts */}
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
@@ -39,11 +43,11 @@ export default function SeoMeta({ canonical }: SeoMetaProps) {
             <script
                 dangerouslySetInnerHTML={{
                     __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-BRZGPDQHJT');
-          `,
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', 'G-BRZGPDQHJT');
+                    `,
                 }}
             />
             {/* Social Media Profiles */}

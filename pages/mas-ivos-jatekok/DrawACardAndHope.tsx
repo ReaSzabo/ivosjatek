@@ -6,7 +6,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function DrawACardAndHopePage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/DrawACardAndHope" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/DrawACardAndHope"
+                title="Húzz és reménykedj - Ivós Játék"
+                description="Pakli kártyával játszható ivós játék, ahol minden laphoz egy feladat tartozik. Húzz egy lapot, teljesítsd a feladatot, és igyál!"
+            />
             <OtherGame
                 title="Húzz és reménykedj"
                 subtitle="Ami kell hozzá: italok, franciakártyák"

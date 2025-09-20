@@ -4,7 +4,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function RussianRoulettePage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/RussianRoulette" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/RussianRoulette"
+                title="Orosz rulett - Ivós Játék"
+                description="Felespoharas ivós játék, ahol csak egy pohárban van rövidital, a többi víz. Vajon ki húzza a rövidet?"
+            />
             <OtherGame
                 title="Orosz rulett"
                 subtitle="Kell hozzá: felespoharak, ital"

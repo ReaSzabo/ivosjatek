@@ -6,7 +6,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function BummPage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/Bumm" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/Bumm"
+                title="Bumm - Ivós Játék"
+                description="Az egyik legegyszerűbb ivós játék, ahol a számokat sorban mondjátok, de a 7-et és annak többszöröseit, illetve amiben 7 szerepel, bumm-mal helyettesítitek. Aki hibázik, iszik."
+            />
             <OtherGame
                 title="Bumm"
                 subtitle="Ami kell hozzá: italok"

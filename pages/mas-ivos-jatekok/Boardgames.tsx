@@ -6,7 +6,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function BoardgamesPage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/Boardgames" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/Boardgames"
+                title="Ivós társasjátékok - Ivós Játék"
+                description="A legjobb ivós társasjátékok: Alkoholi, Részegedj Okosan és még sok más! Szabályok, ötletek, tippek egy helyen."
+            />
             <OtherGame
                 title="Társasjátékok"
                 subtitle="Alkoholi és Részegedj Okosan!"

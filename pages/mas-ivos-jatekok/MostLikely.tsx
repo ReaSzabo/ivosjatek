@@ -4,7 +4,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function MostLikelyPage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/MostLikely" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/MostLikely"
+                title="Legvalószínűbb - Ivós Játék"
+                description="Társas ivós játék, ahol mindenki szavaz, ki a legvalószínűbb egy adott helyzetre. Akire a legtöbben mutatnak, iszik."
+            />
             <OtherGame
                 title="Legvalószínűbb"
                 subtitle="Ami kell hozzá: italok"

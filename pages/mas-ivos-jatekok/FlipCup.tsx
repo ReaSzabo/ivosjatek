@@ -6,7 +6,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function FlipCupPage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/FlipCup" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/FlipCup"
+                title="Pohár fordító - Ivós Játék"
+                description="Két csapat versenyez, ki issza ki előbb a poharakat és fordítja fejre őket. Gyors, pörgős ivós játék nagyobb társaságnak."
+            />
             <OtherGame
                 title="Pohár fordító"
                 subtitle="Ami kell hozzá: italok, fél literes műanyagpoharak"

@@ -4,7 +4,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function OneTrueOneFalsePage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/OneTrueOneFalse" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/OneTrueOneFalse"
+                title="Egy igaz, egy hamis - Ivós Játék"
+                description="Két történet, az egyik igaz, a másik hamis. Találd ki, melyik a kamu, a rosszul tippelők isznak! Ismerkedős, szórakoztató ivós játék."
+            />
             <OtherGame
                 title="Egy igaz, egy hamis"
                 subtitle="Nagy társasággal érdemes játszani ezt a számolós játékot."

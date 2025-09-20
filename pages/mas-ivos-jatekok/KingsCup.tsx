@@ -4,7 +4,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function KingsCupPage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/KingsCup" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/KingsCup"
+                title="Kings Cup - Ivós Játék"
+                description="Kártyás ivós játék, ahol minden laphoz egy szabály tartozik. Húzz egy kártyát, kövesd a szabályt, és igyál!"
+            />
             <OtherGame
                 title="Kings Cup"
                 subtitle="Ami kell hozzá: italok, franciakártyák"

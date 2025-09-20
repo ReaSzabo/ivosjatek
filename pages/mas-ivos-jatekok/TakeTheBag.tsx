@@ -4,7 +4,11 @@ export default function TakeTheBagPage() {
 
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/TakeTheBag" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/TakeTheBag"
+                title="Fogd a táskát - Ivós Játék"
+                description="Szórakoztató ivós játék, ahol egy papírtáskát csak a szátokkal emelhettek fel. Akinek nem sikerül, iszik!"
+            />
             <OtherGame
                 title="Fogd a táskát"
                 subtitle="Ami kell hozzá: italok, papírtáska"

@@ -6,7 +6,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function BeerPongPage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/BeerPong" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/BeerPong"
+                title="Sörpong - Ivós Játék"
+                description="A klasszikus sörpong szabályai, tippek és variációk. Játssz barátaiddal, dobd a labdát, és igyatok együtt!"
+            />
             <OtherGame
                 title="Sörpong"
                 subtitle="Egyszerűek a szabályok és a játék is"

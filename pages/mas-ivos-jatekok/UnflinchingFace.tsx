@@ -4,7 +4,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function UnflinchingFacePage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/UnflinchingFace" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/UnflinchingFace"
+                title="Rezzenéstelen arc - Ivós Játék"
+                description="Ivós játék, ahol vicces mondatokat kell rezzenéstelen arccal kibírni. Aki elneveti magát vagy reagál, iszik!"
+            />
             <OtherGame
                 title="Rezzenéstelen arc"
                 subtitle="Ami kell hozzá: italok, papír, toll"

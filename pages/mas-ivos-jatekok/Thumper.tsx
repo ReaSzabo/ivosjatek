@@ -6,7 +6,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function ThumperPage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/Thumper" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/Thumper"
+                title="Thumper - Ivós Játék"
+                description="Gyors, ritmusos ivós játék, ahol tapsolni és jeleket mutatni kell. Aki elrontja, iszik! Garantáltan felpörgeti a bulit."
+            />
             <OtherGame
                 title="Thumper"
                 subtitle="Ez egy gyors és egyszerű, hangos és csapkodós játék"

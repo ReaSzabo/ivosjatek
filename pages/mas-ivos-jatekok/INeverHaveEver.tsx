@@ -6,7 +6,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function INeverHaveEverPage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/INeverHaveEver" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/INeverHaveEver"
+                title="Én még soha - Ivós Játék"
+                description="A klasszikus 'Én még soha' játék, ahol titkok derülnek ki, és aki már megtette, iszik. Tökéletes ismerkedős ivós játék."
+            />
             <OtherGame
                 title="Én még soha..."
                 subtitle="Ami kell hozzá: italok"

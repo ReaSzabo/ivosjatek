@@ -4,7 +4,11 @@ import OtherGame from '../../src/components/otherGame/OtherGame';
 export default function DeathCirclePage() {
     return (
         <>
-            <SeoMeta canonical="https://ivosjatek.hu/mas-ivos-jatekok/DeathCircle" />
+            <SeoMeta
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/DeathCircle"
+                title="Halálkör - Ivós Játék"
+                description="A Halálkör az egyik legegyszerűbb itatós kártyajáték. Bizonyos lapoknál bizonyos csoportok isznak, kilencesnél rímet kell mondani. Aki nem tud, iszik."
+            />
             <OtherGame
                 title="Halálkör"
                 subtitle={`A Halálkör az egyik legegyszerűbb itatós kártyajáték. Ami kell hozzá: italok, franciakártyák`}
