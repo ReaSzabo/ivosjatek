@@ -24,7 +24,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "postbuild": "node scripts/copyOutToDocs.js",
     "start": "next start"
   }
