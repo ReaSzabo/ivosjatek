@@ -7,7 +7,7 @@ export default function JengaPage() {
     return (
         <>
             <SeoMeta
-                canonical="https://ivosjatek.hu/mas-ivos-jatekok/Jenga"
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/jenga"
                 title="Jenga - Ivós Játék"
                 description="A klasszikus Jenga ivós változata: minden kihúzott kockán feladat, aki ledönti a tornyot, iszik! Garantált nevetés és izgalom."
             />

@@ -5,7 +5,7 @@ export default function DjiboutiPage() {
     return (
         <>
             <SeoMeta
-                canonical="https://ivosjatek.hu/mas-ivos-jatekok/Djibouti"
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/djibouti"
                 title="Djibouti - Ivós Játék"
                 description="Számolós ivós játék, ahol a hetes és annak többszörösei helyett 'Dzsibuti'-t kell mondani. Aki hibázik, iszik. Nagy társasággal ajánlott!"
             />

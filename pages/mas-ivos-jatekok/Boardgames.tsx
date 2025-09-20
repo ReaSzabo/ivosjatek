@@ -7,7 +7,7 @@ export default function BoardgamesPage() {
     return (
         <>
             <SeoMeta
-                canonical="https://ivosjatek.hu/mas-ivos-jatekok/Boardgames"
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/boardgames"
                 title="Ivós társasjátékok - Ivós Játék"
                 description="A legjobb ivós társasjátékok: Alkoholi, Részegedj Okosan és még sok más! Szabályok, ötletek, tippek egy helyen."
             />

@@ -7,7 +7,7 @@ export default function ThumperPage() {
     return (
         <>
             <SeoMeta
-                canonical="https://ivosjatek.hu/mas-ivos-jatekok/Thumper"
+                canonical="https://ivosjatek.hu/mas-ivos-jatekok/thumper"
                 title="Thumper - Ivós Játék"
                 description="Gyors, ritmusos ivós játék, ahol tapsolni és jeleket mutatni kell. Aki elrontja, iszik! Garantáltan felpörgeti a bulit."
             />
