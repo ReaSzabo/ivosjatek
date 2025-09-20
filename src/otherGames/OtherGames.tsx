@@ -18,12 +18,12 @@ const slides = [
   { href: "/OtherGames/Thumper", img: "/assets/images/otherGames/img_2.webp", caption: "Thumper" },
   { href: "/OtherGames/UnflinchingFace", img: "/assets/images/otherGames/img_3.webp", caption: "Rezzenéstelen arc" },
   { href: "/OtherGames/FlipCup", img: "/assets/images/otherGames/img_4.webp", caption: "Pohár fordító" },
-  { href: "/OtherGames/Bumm", img: "/assets/images/otherGames/img_5.webp", caption: "Bumm" },
   { href: "/OtherGames/MostLikely", img: "/assets/images/otherGames/img_6.webp", caption: "Legvalószínűbb" },
   { href: "/OtherGames/TakeTheBag", img: "/assets/images/otherGames/img_7.webp", caption: "Fogd a táskát" },
   { href: "/OtherGames/Jenga", img: "/assets/images/otherGames/img_8.webp", caption: "Jenga" },
   { href: "/OtherGames/StuckTogether", img: "/assets/images/otherGames/img_9.webp", caption: "Összeragadva" },
   { href: "/OtherGames/INeverHaveEver", img: "/assets/images/otherGames/img_10.webp", caption: "Én még soha..." },
+  { href: "/OtherGames/Bumm", img: "/assets/images/otherGames/img_5.webp", caption: "Bumm" },
   { href: "/OtherGames/BeerPong", img: "/assets/images/otherGames/img_11.webp", caption: "Sörpong" },
   { href: "/OtherGames/TRex", img: "/assets/images/otherGames/img_12.webp", caption: "T-Rex" },
   { href: "/OtherGames/DeathCircle", img: "/assets/images/otherGames/img_13.webp", caption: "Halálkör" },
@@ -59,14 +59,15 @@ const OtherGames: React.FC = () => {
         </button>
       </Link>
       <div className={styles.cardsContainer}>
-        {slides.length > 0 ? (
+        {windowSize < 1235 ? (
           <Swiper
             effect="coverflow"
             grabCursor={true}
             centeredSlides={true}
             loop={true}
-            direction="horizontal"
-            slidesPerView="auto"
+            direction="vertical"
+            slidesPerView={"auto"}
+            initialSlide={7}
             coverflowEffect={{
               rotate: 0,
               stretch: 0,
@@ -92,7 +93,38 @@ const OtherGames: React.FC = () => {
             ))}
           </Swiper>
         ) : (
-          <div style={{ color: 'red' }}>Nincs elérhető slide.</div>
+          <Swiper
+            effect="coverflow"
+            grabCursor={true}
+            centeredSlides={true}
+            loop={true}
+            direction="horizontal"
+            slidesPerView={"auto"}
+            initialSlide={9}
+            coverflowEffect={{
+              rotate: 0,
+              stretch: 0,
+              depth: 100,
+              modifier: 2.5,
+            }}
+            modules={[EffectCoverflow]}
+            className={styles.swiperContainer}
+          >
+            {slides.map((slide, idx) => (
+              <SwiperSlide key={idx} className={styles.swiperSlide}>
+                <Link href={slide.href} className={styles.swiperLink}>
+                  <Image
+                    src={slide.img}
+                    alt="Slide image"
+                    width={370}
+                    height={560}
+                    className={styles.swiperImage}
+                  />
+                  <div className={styles.swiperCaption}>{slide.caption}</div>
+                </Link>
+              </SwiperSlide>
+            ))}
+          </Swiper>
         )}
       </div>
     </div>
