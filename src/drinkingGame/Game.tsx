@@ -26,25 +26,30 @@ class Game extends Component {
       return;
     }
 
-    // Get a random question and store it in a variable
-    let tempCurrentQuestion = this.state.questions[
-      Math.floor(Math.random() * this.state.questions.length)
-    ].hu;
+    // Get a random index and question
+    const randomIndex = Math.floor(Math.random() * this.state.questions.length);
+    const tempCurrentQuestion = this.state.questions[randomIndex].hu;
 
     let tempCurrentBackfaceImage = this.state.backfaceImages[
       Math.floor(Math.random() * this.state.backfaceImages.length)
     ];
+
+    // Remove the used question from the questions array
+    const newQuestions = [...this.state.questions];
+    newQuestions.splice(randomIndex, 1);
 
     // Put the random question to the "this.state.currentQuestion"
     if (this.state.isFlipped) {
       this.setState({
         isFlipped: false,
         currentBackfaceImage: tempCurrentBackfaceImage,
+        questions: newQuestions,
       })
     } else {
       this.setState({
         isFlipped: true,
         currentQuestion: tempCurrentQuestion,
+        questions: newQuestions,
       });
     }
 
