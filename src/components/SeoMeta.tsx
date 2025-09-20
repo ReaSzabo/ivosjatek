@@ -1,8 +1,22 @@
 import Head from 'next/head';
 
-export default function SeoMeta() {
+type SeoMetaProps = {
+    canonical?: string;
+};
+
+export default function SeoMeta({ canonical }: SeoMetaProps) {
+    let canonicalUrl = canonical;
+    if (!canonicalUrl) {
+        if (typeof window !== 'undefined') {
+            canonicalUrl = `https://ivosjatek.hu${window.location.pathname}`;
+        } else {
+            canonicalUrl = 'https://ivosjatek.hu';
+        }
+    }
     return (
         <Head>
+            {/* Canonical */}
+            <link rel="canonical" href={canonicalUrl} />
             {/* Favicon */}
             <link rel="icon" href="/favIcon.webp" />
             {/* Manifest */}
