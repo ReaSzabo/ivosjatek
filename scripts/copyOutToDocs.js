@@ -14,7 +14,7 @@ if (!fs.existsSync(DOCS_DIR)) {
 
 // Remove docs except CNAME
 fs.readdirSync(DOCS_DIR).forEach(file => {
-    if (file !== 'CNAME') {
+    if (file !== 'CNAME' && file !== '.nojekyll') {
         const filePath = path.join(DOCS_DIR, file);
         fs.rmSync(filePath, { recursive: true, force: true });
     }
