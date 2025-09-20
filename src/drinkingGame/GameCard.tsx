@@ -13,7 +13,7 @@ class GameCard extends Component<IProps> {
     return (
       <div className={this.props.isFlipped ? styles["game-card"] : `${styles["game-card"]} ${styles["makesItFlipping"]}`}>
         <div className={`${styles["game-card__face"]} ${styles["game-card__face--back"]}`}>
-          <img src={this.props.image} alt="backface" />
+          <img src={this.props.image} alt="A kártya hátsó lapján lévő izgalmas kép" />
         </div>
         <div className={`${styles["game-card__face"]} ${styles["game-card__face--front"]}`}>{this.props.text}</div>
         <button className={styles["next-button"]} type="button">

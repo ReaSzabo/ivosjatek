@@ -80,7 +80,7 @@ const OtherGames: React.FC = () => {
                 <Link href={slide.href} className={styles["swiper-link"]}>
                   <Image
                     src={slide.img}
-                    alt="Slide image"
+                    alt={slide.caption}
                     width={370}
                     height={560}
                     className={styles["swiper-image"]}
@@ -113,7 +113,7 @@ const OtherGames: React.FC = () => {
                 <Link href={slide.href} className={styles["swiper-link"]}>
                   <Image
                     src={slide.img}
-                    alt="Slide image"
+                    alt={slide.caption}
                     width={370}
                     height={560}
                     className={styles["swiper-image"]}
