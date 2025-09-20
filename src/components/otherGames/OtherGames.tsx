@@ -6,8 +6,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow } from "swiper/modules";
 
 import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/effect-coverflow";
 
@@ -48,17 +46,17 @@ const OtherGames: React.FC = () => {
 
 
   return (
-    <div className={styles.backgroundContainer}>
+    <div className={styles["background-container"]}>
       <Link href="/">
-        <button type="button" className={styles.backButton}>
-          <span className={styles.backButtonText}>vissza</span>
-          <span className={styles.backButtonLayer}></span>
-          <span className={styles.backButtonLayer}></span>
-          <span className={styles.backButtonLayer}></span>
-          <span className={styles.backButtonLayer}></span>
+        <button type="button" className={styles["back-button"]}>
+          <span className={styles["back-button__text"]}>vissza</span>
+          <span className={styles["back-button__layer"]}></span>
+          <span className={styles["back-button__layer"]}></span>
+          <span className={styles["back-button__layer"]}></span>
+          <span className={styles["back-button__layer"]}></span>
         </button>
       </Link>
-      <div className={styles.cardsContainer}>
+      <div className={styles["cards-container"]}>
         {windowSize < 1235 ? (
           <Swiper
             effect="coverflow"
@@ -75,19 +73,19 @@ const OtherGames: React.FC = () => {
               modifier: 2.5,
             }}
             modules={[EffectCoverflow]}
-            className={styles.swiperContainer}
+            className={styles["swiper-container"]}
           >
             {slides.map((slide, idx) => (
-              <SwiperSlide key={idx} className={styles.swiperSlide}>
-                <Link href={slide.href} className={styles.swiperLink}>
+              <SwiperSlide key={idx} className={styles["swiper-slide"]}>
+                <Link href={slide.href} className={styles["swiper-link"]}>
                   <Image
                     src={slide.img}
                     alt="Slide image"
                     width={370}
                     height={560}
-                    className={styles.swiperImage}
+                    className={styles["swiper-image"]}
                   />
-                  <div className={styles.swiperCaption}>{slide.caption}</div>
+                  <div className={styles["swiper-caption"]}>{slide.caption}</div>
                 </Link>
               </SwiperSlide>
             ))}
@@ -108,19 +106,19 @@ const OtherGames: React.FC = () => {
               modifier: 2.5,
             }}
             modules={[EffectCoverflow]}
-            className={styles.swiperContainer}
+            className={styles["swiper-container"]}
           >
             {slides.map((slide, idx) => (
-              <SwiperSlide key={idx} className={styles.swiperSlide}>
-                <Link href={slide.href} className={styles.swiperLink}>
+              <SwiperSlide key={idx} className={styles["swiper-slide"]}>
+                <Link href={slide.href} className={styles["swiper-link"]}>
                   <Image
                     src={slide.img}
                     alt="Slide image"
                     width={370}
                     height={560}
-                    className={styles.swiperImage}
+                    className={styles["swiper-image"]}
                   />
-                  <div className={styles.swiperCaption}>{slide.caption}</div>
+                  <div className={styles["swiper-caption"]}>{slide.caption}</div>
                 </Link>
               </SwiperSlide>
             ))}

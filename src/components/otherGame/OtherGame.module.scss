@@ -1,5 +1,4 @@
 .other-game {
-
     background: url("../../assets/images/menu/backg.webp");
     background-size: cover;
     display: flex;
@@ -13,7 +12,7 @@
         sans-serif;
     font-variant-caps: all-small-caps;
 
-    &__shadow {
+    &__container {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -89,7 +88,7 @@
                     font-family: "Montserrat", sans-serif;
                 }
 
-                &-blob {
+                &-layer {
                     position: absolute;
                     z-index: -1;
                     border-radius: 5em;
@@ -98,49 +97,49 @@
                     transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
                 }
 
-                &-blob:nth-child(2) {
+                &-layer:nth-child(2) {
                     left: 0em;
                     top: 0;
                     background: #ff930f;
                 }
 
-                &-blob:nth-child(3) {
+                &-layer:nth-child(3) {
                     left: 1.8em;
                     top: 0;
                     z-index: -1;
                     background: #bf0fff;
                 }
 
-                &-blob:nth-child(4) {
+                &-layer:nth-child(4) {
                     left: 4em;
                     top: -1em;
                     background: #ff1b6b;
                 }
 
-                &-blob:nth-child(5) {
+                &-layer:nth-child(5) {
                     left: 4.3em;
                     top: 1.6em;
                     background: #0061ff;
                 }
             }
 
-            &-button:hover &-button-blob:nth-child(2) {
+            &-button:hover &-button-layer:nth-child(2) {
                 background: #0061ff;
             }
 
-            &-button:hover &-button-blob:nth-child(3) {
+            &-button:hover &-button-layer:nth-child(3) {
                 background: #ff1b6b;
             }
 
-            &-button:hover &-button-blob:nth-child(4) {
+            &-button:hover &-button-layer:nth-child(4) {
                 background: #bf0fff;
             }
 
-            &-button:hover &-button-blob:nth-child(5) {
+            &-button:hover &-button-layer:nth-child(5) {
                 background: #ff930f;
             }
 
-            &-button:hover &-button-blob {
+            &-button:hover &-button-layer {
                 transform: scale(1.3);
             }
 
@@ -149,7 +148,7 @@
             }
         }
 
-        &-first-section {
+        &-image {
             height: 90vh;
             width: 529.8px;
             display: flex;
@@ -164,8 +163,14 @@
     }
 
 
-    @media (max-width: 700px) {
-        &__shadow-description {
+    @media (max-width: 1100px) {
+        &__container-image {
+            display: none;
+        }
+    }
+
+    @media (max-width: 600px) {
+        &__container-description {
             height: 650px;
             width: 370px;
             border-radius: 0px;
@@ -184,7 +189,7 @@
 
         }
 
-        &__shadow-first-section {
+        &__container-image {
             display: none;
         }
 

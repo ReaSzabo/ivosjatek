@@ -63,24 +63,24 @@ class OtherGame extends Component<GameProps> {
   render() {
     return (
       <div className={styles["other-game"]}>
-        <div className={styles["other-game__shadow"]}>
-          <div className={styles["other-game__shadow-description"]}>
-            <h1 className={styles["other-game__shadow-description-title"]}>{this.props.title}</h1>
-            <h2 className={styles["other-game__shadow-description-subtitle"]}>
+        <div className={styles["other-game__container"]}>
+          <div className={styles["other-game__container-description"]}>
+            <h1 className={styles["other-game__container-description-title"]}>{this.props.title}</h1>
+            <h2 className={styles["other-game__container-description-subtitle"]}>
               {this.props.subtitle}
             </h2>
-            <p className={styles["other-game__shadow-description-text"]}>{this.props.text}</p>
-            <button className={styles["other-game__shadow-description-button"]} type="button" onClick={this.handleBack}>
-              <span className={styles["other-game__shadow-description-button-text"]}> vissza </span>
-              <span className={styles["other-game__shadow-description-button-blob"]}></span>
-              <span className={styles["other-game__shadow-description-button-blob"]}></span>
-              <span className={styles["other-game__shadow-description-button-blob"]}></span>
-              <span className={styles["other-game__shadow-description-button-blob"]}></span>
+            <p className={styles["other-game__container-description-text"]}>{this.props.text}</p>
+            <button className={styles["other-game__container-description-button"]} type="button" onClick={this.handleBack}>
+              <span className={styles["other-game__container-description-button-text"]}> vissza </span>
+              <span className={styles["other-game__container-description-button-layer"]}></span>
+              <span className={styles["other-game__container-description-button-layer"]}></span>
+              <span className={styles["other-game__container-description-button-layer"]}></span>
+              <span className={styles["other-game__container-description-button-layer"]}></span>
             </button>
           </div>
 
           <div
-            className={styles["other-game__shadow-first-section"]}
+            className={styles["other-game__container-image"]}
             style={{ backgroundImage: `url('${this.getPic()}')` }}
           ></div>
         </div>
