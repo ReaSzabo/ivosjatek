@@ -12,7 +12,7 @@ class Contact extends Component {
       return;
     }
 
-    fetch("https://formspree.io/f/xjvnrgon111", {
+    fetch("https://formspree.io/f/xjvnrgon", {
       method: "POST",
       body: new FormData(event.target),
       headers: {
