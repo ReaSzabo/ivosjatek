@@ -1,171 +1,102 @@
-import { Component } from "react";
-import { useRouter } from 'next/router';
+"use client";
+import React, { useEffect, useState } from "react";
+import Link from "next/link";
 import styles from "./OtherGames.module.scss";
-import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, EffectCoverflow } from "swiper/modules";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css/effect-coverflow";
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import Image from "next/image";
 
-const slide_images = [
-  "/assets/images/otherGames/img_1.webp",
-  "/assets/images/otherGames/img_2.webp",
-  "/assets/images/otherGames/img_3.webp",
-  "/assets/images/otherGames/img_4.webp",
-  "/assets/images/otherGames/img_5.webp",
-  "/assets/images/otherGames/img_6.webp",
-  "/assets/images/otherGames/img_7.webp",
-  "/assets/images/otherGames/img_8.webp",
-  "/assets/images/otherGames/img_9.webp",
-  "/assets/images/otherGames/img_10.webp",
-  "/assets/images/otherGames/img_11.webp",
-  "/assets/images/otherGames/img_12.webp",
-  "/assets/images/otherGames/img_13.webp",
-  "/assets/images/otherGames/img_14.webp",
-  "/assets/images/otherGames/img_15.webp",
-  "/assets/images/otherGames/img_16.webp",
-  "/assets/images/otherGames/img_17.webp",
-  "/assets/images/otherGames/img_18.webp",
+const slides = [
+  { href: "/OtherGames/KingsCup", img: "/assets/images/otherGames/img_1.webp", caption: "Kings Cup" },
+  { href: "/OtherGames/Thumper", img: "/assets/images/otherGames/img_2.webp", caption: "Thumper" },
+  { href: "/OtherGames/UnflinchingFace", img: "/assets/images/otherGames/img_3.webp", caption: "Rezzenéstelen arc" },
+  { href: "/OtherGames/FlipCup", img: "/assets/images/otherGames/img_4.webp", caption: "Pohár fordító" },
+  { href: "/OtherGames/Bumm", img: "/assets/images/otherGames/img_5.webp", caption: "Bumm" },
+  { href: "/OtherGames/MostLikely", img: "/assets/images/otherGames/img_6.webp", caption: "Legvalószínűbb" },
+  { href: "/OtherGames/TakeTheBag", img: "/assets/images/otherGames/img_7.webp", caption: "Fogd a táskát" },
+  { href: "/OtherGames/Jenga", img: "/assets/images/otherGames/img_8.webp", caption: "Jenga" },
+  { href: "/OtherGames/StuckTogether", img: "/assets/images/otherGames/img_9.webp", caption: "Összeragadva" },
+  { href: "/OtherGames/INeverHaveEver", img: "/assets/images/otherGames/img_10.webp", caption: "Én még soha..." },
+  { href: "/OtherGames/BeerPong", img: "/assets/images/otherGames/img_11.webp", caption: "Sörpong" },
+  { href: "/OtherGames/TRex", img: "/assets/images/otherGames/img_12.webp", caption: "T-Rex" },
+  { href: "/OtherGames/DeathCircle", img: "/assets/images/otherGames/img_13.webp", caption: "Halálkör" },
+  { href: "/OtherGames/DrawACardAndHope", img: "/assets/images/otherGames/img_14.webp", caption: "Húzz és reménykedj" },
+  { href: "/OtherGames/Djibouti", img: "/assets/images/otherGames/img_15.webp", caption: "Djibouti" },
+  { href: "/OtherGames/OneTrueOneFalse", img: "/assets/images/otherGames/img_16.webp", caption: "Egy igaz, egy hamis" },
+  { href: "/OtherGames/Boardgames", img: "/assets/images/otherGames/img_17.webp", caption: "Társasjátékok" },
+  { href: "/OtherGames/RussianRoulette", img: "/assets/images/otherGames/img_18.webp", caption: "Orosz rulett" },
 ];
 
-class OtherGames extends Component {
-
-  state = {
-    windowSize: 0
-  }
+const OtherGames: React.FC = () => {
+  const [windowSize, setWindowSize] = useState<number>(typeof window !== "undefined" ? window.innerWidth : 1400);
 
 
-  componentDidMount() {
-    this.setState({ windowSize: window.innerWidth });
-    window.addEventListener("resize", this.handleResize);
-  }
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowSize(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
-  handleResize = () => {
-    this.setState({
-      windowSize: window.innerWidth
-    })
-  }
-  handleBack = () => {
-    if (typeof window !== 'undefined') {
-      window.location.href = '/';
-    }
-  }
 
-  render() {
-    return (
-      <div className={styles['othergames-background']}>
-        <button type="button" className={styles['othergames-back-btn']} onClick={this.handleBack}>
-          <span className={styles['othergames-back-btn-text']}> vissza </span>
-          <span className={styles['othergames-back-btn-blob'] + ' ' + styles['othergames-back-btn-blob2']}></span>
-          <span className={styles['othergames-back-btn-blob'] + ' ' + styles['othergames-back-btn-blob3']}></span>
-          <span className={styles['othergames-back-btn-blob'] + ' ' + styles['othergames-back-btn-blob4']}></span>
-          <span className={styles['othergames-back-btn-blob'] + ' ' + styles['othergames-back-btn-blob5']}></span>
+  return (
+    <div className={styles.backgroundContainer}>
+      <Link href="/">
+        <button type="button" className={styles.backButton}>
+          <span className={styles.backButtonText}>vissza</span>
+          <span className={styles.backButtonLayer}></span>
+          <span className={styles.backButtonLayer}></span>
+          <span className={styles.backButtonLayer}></span>
+          <span className={styles.backButtonLayer}></span>
         </button>
-        <div className={styles['othergames-container']}>
-          {this.state.windowSize < 1235 ?
-            <Swiper
-              effect="coverflow"
-              grabCursor={true}
-              centeredSlides={true}
-              loop={true}
-              direction={'vertical'}
-              slidesPerView="auto"
-              coverflowEffect={{
-                rotate: 0,
-                stretch: 0,
-                depth: 100,
-                modifier: 2.5,
-              }}
-              pagination={{ el: ".swiper-pagination", clickable: true }}
-              modules={[EffectCoverflow, Pagination, Navigation]}
-              className={styles['othergames-swiper-container']}
-            >
-              {[
-                { href: "/OtherGames/KingsCup", caption: "Kings Cup" },
-                { href: "/OtherGames/Thumper", caption: "Thumper" },
-                { href: "/OtherGames/UnflinchingFace", caption: "Rezzenéstelen arc" },
-                { href: "/OtherGames/FlipCup", caption: "Pohár fordító" },
-                { href: "/OtherGames/Bumm", caption: "Bumm" },
-                { href: "/OtherGames/MostLikely", caption: "Legvalószínűbb" },
-                { href: "/OtherGames/TakeTheBag", caption: "Fogd a táskát" },
-                { href: "/OtherGames/Jenga", caption: "Jenga" },
-                { href: "/OtherGames/StuckTogether", caption: "Összeragadva" },
-                { href: "/OtherGames/INeverHaveEver", caption: "Én még soha..." },
-                { href: "/OtherGames/BeerPong", caption: "Sörpong" },
-                { href: "/OtherGames/TRex", caption: "T-Rex" },
-                { href: "/OtherGames/DeathCircle", caption: "Halálkör" },
-                { href: "/OtherGames/DrawACardAndHope", caption: "Húzz és reménykedj" },
-                { href: "/OtherGames/Djibouti", caption: "Djibouti" },
-                { href: "/OtherGames/OneTrueOneFalse", caption: "Egy igaz, egy hamis" },
-                { href: "/OtherGames/Boardgames", caption: "Társasjátékok" },
-                { href: "/OtherGames/RussianRoulette", caption: "Orosz rulett" },
-              ].map((slide, idx) => (
-                <SwiperSlide key={slide.href} className={styles['othergames-swiper-slide']}>
-                  <a href={slide.href} className={styles['othergames-slide-link']}>
-                    <img src={slide_images[idx]} alt="slide_image" className={styles['othergames-swiper-slide-img']} />
-                    <div className={styles['othergames-caption']}> {slide.caption} </div>
-                  </a>
-                </SwiperSlide>
-              ))}
-
-              <div className={styles['othergames-slider-controler']}></div>
-            </Swiper> :
-            <Swiper
-              effect="coverflow"
-              grabCursor={true}
-              centeredSlides={true}
-              loop={true}
-              direction={'horizontal'}
-              slidesPerView="auto"
-              coverflowEffect={{
-                rotate: 0,
-                stretch: 0,
-                depth: 100,
-                modifier: 2.5,
-              }}
-              pagination={{ el: ".swiper-pagination", clickable: true }}
-              modules={[EffectCoverflow, Pagination, Navigation]}
-              className={styles['othergames-swiper-container']}
-            >
-              {[
-                { href: "/OtherGames/KingsCup", caption: "Kings Cup" },
-                { href: "/OtherGames/Thumper", caption: "Thumper" },
-                { href: "/OtherGames/UnflinchingFace", caption: "Rezzenéstelen arc" },
-                { href: "/OtherGames/FlipCup", caption: "Pohár fordító" },
-                { href: "/OtherGames/Bumm", caption: "Bumm" },
-                { href: "/OtherGames/MostLikely", caption: "Legvalószínűbb" },
-                { href: "/OtherGames/TakeTheBag", caption: "Fogd a táskát" },
-                { href: "/OtherGames/Jenga", caption: "Jenga" },
-                { href: "/OtherGames/StuckTogether", caption: "Összeragadva" },
-                { href: "/OtherGames/INeverHaveEver", caption: "Én még soha..." },
-                { href: "/OtherGames/BeerPong", caption: "Sörpong" },
-                { href: "/OtherGames/TRex", caption: "T-Rex" },
-                { href: "/OtherGames/DeathCircle", caption: "Halálkör" },
-                { href: "/OtherGames/DrawACardAndHope", caption: "Húzz és reménykedj" },
-                { href: "/OtherGames/Djibouti", caption: "Djibouti" },
-                { href: "/OtherGames/OneTrueOneFalse", caption: "Egy igaz, egy hamis" },
-                { href: "/OtherGames/Boardgames", caption: "Társasjátékok" },
-                { href: "/OtherGames/RussianRoulette", caption: "Orosz rulett" },
-              ].map((slide, idx) => (
-                <SwiperSlide key={slide.href} className={styles['othergames-swiper-slide']}>
-                  <a href={slide.href} className={styles['othergames-slide-link']}>
-                    <img src={slide_images[idx]} alt="slide_image" className={styles['othergames-swiper-slide-img']} />
-                    <div className={styles['othergames-caption']}> {slide.caption} </div>
-                  </a>
-                </SwiperSlide>
-              ))}
-
-              <div className={styles['othergames-slider-controler']}></div>
-            </Swiper>
-          }
-        </div>
+      </Link>
+      <div className={styles.cardsContainer}>
+        {slides.length > 0 ? (
+          <Swiper
+            effect="coverflow"
+            grabCursor={true}
+            centeredSlides={true}
+            loop={true}
+            direction="horizontal"
+            slidesPerView="auto"
+            coverflowEffect={{
+              rotate: 0,
+              stretch: 0,
+              depth: 100,
+              modifier: 2.5,
+            }}
+            modules={[EffectCoverflow]}
+            className={styles.swiperContainer}
+          >
+            {slides.map((slide, idx) => (
+              <SwiperSlide key={idx} className={styles.swiperSlide}>
+                <Link href={slide.href} className={styles.swiperLink}>
+                  <Image
+                    src={slide.img}
+                    alt="Slide image"
+                    width={370}
+                    height={560}
+                    className={styles.swiperImage}
+                  />
+                  <div className={styles.swiperCaption}>{slide.caption}</div>
+                </Link>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        ) : (
+          <div style={{ color: 'red' }}>Nincs elérhető slide.</div>
+        )}
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default OtherGames;

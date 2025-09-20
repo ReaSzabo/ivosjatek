@@ -23,6 +23,8 @@ import UnflinchingFace from "./otherGames/UnflinchingFace";
 
 import { createHashRouter, RouterProvider } from "react-router-dom";
 
+import "../styles/globals.scss";
+
 const router = createHashRouter([
   {
     path: "/",
