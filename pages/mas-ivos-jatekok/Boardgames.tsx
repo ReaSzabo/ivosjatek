@@ -1,2 +1,11 @@
-import Boardgames from '../../src/otherGames/Boardgames';
-export default Boardgames;
+import OtherGame from '../../src/components/otherGame/OtherGame';
+
+export default function BoardgamesPage() {
+    return (
+        <OtherGame
+            title="Társasjátékok"
+            subtitle="Alkoholi és Részegedj Okosan!"
+            text={`A két legismertebb ivós társasjáték, amelyeket meg is vásárolhatsz, de elkészítheted magad is. Ha jól megnézed a képet,\nminden magyarázat feleslegessé válik a játék brutalitását illetően.`}
+        />
+    );
+}
