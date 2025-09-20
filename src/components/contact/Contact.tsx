@@ -4,17 +4,34 @@ import styles from "./Contact.module.scss";
 class Contact extends Component {
 
   handleSubmit = (event: any) => {
-
     event.preventDefault();
+    const form = event.target;
+    const formData = new FormData(form);
+    const name = formData.get("name")?.toString().trim();
+    const email = formData.get("email")?.toString().trim();
+    const message = formData.get("message")?.toString().trim();
+    const termsAccepted = form.querySelector('input[type="checkbox"]')?.checked;
 
-    if (new FormData(event.target).get("message") === "") {
-      alert("Az üzenet mező érdemi kitöltése szükséges a sikeres kapcsolatfelvételhez. Ha szeretnél nekünk üzenni, kérjük, pótold ezt a hiányosságot! :) ");
+    if (!name) {
+      alert("A név mező kitöltése kötelező.");
+      return;
+    }
+    if (!email) {
+      alert("Az e-mail mező kitöltése kötelező.");
+      return;
+    }
+    if (!message) {
+      alert("Az üzenet mező érdemi kitöltése szükséges a sikeres kapcsolatfelvételhez. Ha szeretnél nekünk üzenni, kérjük, pótold ezt a hiányosságot! :)");
+      return;
+    }
+    if (!termsAccepted) {
+      alert("A felhasználási feltételek elfogadása kötelező.");
       return;
     }
 
     fetch("https://formspree.io/f/xjvnrgon", {
       method: "POST",
-      body: new FormData(event.target),
+      body: formData,
       headers: {
         Accept: "application/json",
       },
