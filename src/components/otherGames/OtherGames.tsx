@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import styles from "./OtherGames.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, EffectCoverflow } from "swiper/modules";
+import { EffectCoverflow } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -14,24 +14,24 @@ import "swiper/css/effect-coverflow";
 import Image from "next/image";
 
 const slides = [
-  { href: "/OtherGames/KingsCup", img: "/assets/images/otherGames/img_1.webp", caption: "Kings Cup" },
-  { href: "/OtherGames/Thumper", img: "/assets/images/otherGames/img_2.webp", caption: "Thumper" },
-  { href: "/OtherGames/UnflinchingFace", img: "/assets/images/otherGames/img_3.webp", caption: "Rezzenéstelen arc" },
-  { href: "/OtherGames/FlipCup", img: "/assets/images/otherGames/img_4.webp", caption: "Pohár fordító" },
-  { href: "/OtherGames/MostLikely", img: "/assets/images/otherGames/img_6.webp", caption: "Legvalószínűbb" },
-  { href: "/OtherGames/TakeTheBag", img: "/assets/images/otherGames/img_7.webp", caption: "Fogd a táskát" },
-  { href: "/OtherGames/Jenga", img: "/assets/images/otherGames/img_8.webp", caption: "Jenga" },
-  { href: "/OtherGames/StuckTogether", img: "/assets/images/otherGames/img_9.webp", caption: "Összeragadva" },
-  { href: "/OtherGames/INeverHaveEver", img: "/assets/images/otherGames/img_10.webp", caption: "Én még soha..." },
-  { href: "/OtherGames/Bumm", img: "/assets/images/otherGames/img_5.webp", caption: "Bumm" },
-  { href: "/OtherGames/BeerPong", img: "/assets/images/otherGames/img_11.webp", caption: "Sörpong" },
-  { href: "/OtherGames/TRex", img: "/assets/images/otherGames/img_12.webp", caption: "T-Rex" },
-  { href: "/OtherGames/DeathCircle", img: "/assets/images/otherGames/img_13.webp", caption: "Halálkör" },
-  { href: "/OtherGames/DrawACardAndHope", img: "/assets/images/otherGames/img_14.webp", caption: "Húzz és reménykedj" },
-  { href: "/OtherGames/Djibouti", img: "/assets/images/otherGames/img_15.webp", caption: "Djibouti" },
-  { href: "/OtherGames/OneTrueOneFalse", img: "/assets/images/otherGames/img_16.webp", caption: "Egy igaz, egy hamis" },
-  { href: "/OtherGames/Boardgames", img: "/assets/images/otherGames/img_17.webp", caption: "Társasjátékok" },
-  { href: "/OtherGames/RussianRoulette", img: "/assets/images/otherGames/img_18.webp", caption: "Orosz rulett" },
+  { href: "/mas-ivos-jatekok/KingsCup", img: "/assets/images/otherGames/img_1.webp", caption: "Kings Cup" },
+  { href: "/mas-ivos-jatekok/Thumper", img: "/assets/images/otherGames/img_2.webp", caption: "Thumper" },
+  { href: "/mas-ivos-jatekok/UnflinchingFace", img: "/assets/images/otherGames/img_3.webp", caption: "Rezzenéstelen arc" },
+  { href: "/mas-ivos-jatekok/FlipCup", img: "/assets/images/otherGames/img_4.webp", caption: "Pohár fordító" },
+  { href: "/mas-ivos-jatekok/MostLikely", img: "/assets/images/otherGames/img_6.webp", caption: "Legvalószínűbb" },
+  { href: "/mas-ivos-jatekok/TakeTheBag", img: "/assets/images/otherGames/img_7.webp", caption: "Fogd a táskát" },
+  { href: "/mas-ivos-jatekok/Jenga", img: "/assets/images/otherGames/img_8.webp", caption: "Jenga" },
+  { href: "/mas-ivos-jatekok/StuckTogether", img: "/assets/images/otherGames/img_9.webp", caption: "Összeragadva" },
+  { href: "/mas-ivos-jatekok/INeverHaveEver", img: "/assets/images/otherGames/img_10.webp", caption: "Én még soha..." },
+  { href: "/mas-ivos-jatekok/Bumm", img: "/assets/images/otherGames/img_5.webp", caption: "Bumm" },
+  { href: "/mas-ivos-jatekok/BeerPong", img: "/assets/images/otherGames/img_11.webp", caption: "Sörpong" },
+  { href: "/mas-ivos-jatekok/TRex", img: "/assets/images/otherGames/img_12.webp", caption: "T-Rex" },
+  { href: "/mas-ivos-jatekok/DeathCircle", img: "/assets/images/otherGames/img_13.webp", caption: "Halálkör" },
+  { href: "/mas-ivos-jatekok/DrawACardAndHope", img: "/assets/images/otherGames/img_14.webp", caption: "Húzz és reménykedj" },
+  { href: "/mas-ivos-jatekok/Djibouti", img: "/assets/images/otherGames/img_15.webp", caption: "Djibouti" },
+  { href: "/mas-ivos-jatekok/OneTrueOneFalse", img: "/assets/images/otherGames/img_16.webp", caption: "Egy igaz, egy hamis" },
+  { href: "/mas-ivos-jatekok/Boardgames", img: "/assets/images/otherGames/img_17.webp", caption: "Társasjátékok" },
+  { href: "/mas-ivos-jatekok/RussianRoulette", img: "/assets/images/otherGames/img_18.webp", caption: "Orosz rulett" },
 ];
 
 const OtherGames: React.FC = () => {

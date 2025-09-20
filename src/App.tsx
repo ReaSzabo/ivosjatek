@@ -1,5 +1,5 @@
 import Menu from "./menu/Menu";
-import OtherGames from "./otherGames/OtherGames";
+import OtherGames from "./components/otherGames/OtherGames";
 import Game from "./drinkingGame/Game";
 import Contact from "./contact/Contact";
 import BeerPong from "./otherGames/BeerPong";

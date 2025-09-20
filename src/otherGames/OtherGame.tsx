@@ -1,6 +1,5 @@
 import { Component } from "react";
 import styles from "./OtherGame.module.scss";
-// Use public asset paths for Next.js
 const images = [
   "/assets/images/otherGames/img_1.webp",
   "/assets/images/otherGames/img_2.webp",
@@ -24,16 +23,16 @@ const images = [
 
 
 
-interface IProps {
+interface GameProps {
   title: string;
   subtitle: string;
   text: string;
 }
 
-class OtherGame extends Component<IProps> {
+class OtherGame extends Component<GameProps> {
   handleBack = () => {
     if (typeof window !== 'undefined') {
-      window.location.href = '/OtherGames';
+      window.location.href = '/mas-ivos-jatekok';
     }
   }
   getPic(): string {

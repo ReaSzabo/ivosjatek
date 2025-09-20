@@ -1,14 +1,5 @@
 .other-game {
 
-    /* Local reset for this component */
-    & *,
-    & *::before,
-    & *::after {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
-
     background: url("../assets/images/menu/backg.webp");
     background-size: cover;
     display: flex;
@@ -19,7 +10,7 @@
     padding-left: 40px;
     padding-right: 40px;
     font-family: "Montserrat",
-    sans-serif;
+        sans-serif;
     font-variant-caps: all-small-caps;
 
     &__shadow {

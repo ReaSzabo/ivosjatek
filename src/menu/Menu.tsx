@@ -10,7 +10,7 @@ class Menu extends Component {
       <div className={styles["menu-container"]}>
         <div className={styles["menu-container__elements"]}>
 
-          <Link href="/OtherGames" legacyBehavior>
+          <Link href="/mas-ivos-jatekok" legacyBehavior>
             <a>
               <Card
                 image="/assets/images/menu/cat.webp"
@@ -19,7 +19,7 @@ class Menu extends Component {
               />
             </a>
           </Link>
-          <Link href="/drinkingGame/Game" legacyBehavior>
+          <Link href="/jatek" legacyBehavior>
             <a>
               <Card
                 image="/assets/images/menu/lion.webp"
@@ -28,7 +28,7 @@ class Menu extends Component {
               />
             </a>
           </Link>
-          <Link href="/contact" legacyBehavior>
+          <Link href="/kapcsolat" legacyBehavior>
             <a>
               <Card
                 image="/assets/images/menu/dog.webp"
