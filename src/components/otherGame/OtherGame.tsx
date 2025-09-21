@@ -80,7 +80,7 @@ class OtherGame extends Component<GameProps> {
 
           <div
             className={styles["other-game__container-image"]}
-            style={{ backgroundImage: `url('${this.getPic()}')` }}
+            data-bg={this.getPic()}
           ></div>
         </div>
       </div>

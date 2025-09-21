@@ -1,3 +1,12 @@
+.other-game__container-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.other-game__container-image[data-bg] {
+    background-image: attr(data-bg url);
+}
 .other-game {
     background: url("../../assets/images/menu/backg.webp");
     background-size: cover;
@@ -159,6 +168,79 @@
             border-top: 2px solid rgb(255, 241, 255);
             border-right: 2px solid rgb(255, 241, 255);
             border-bottom: 2px solid rgb(255, 241, 255);
+        }
+
+        // Add background-image classes for each image
+        &-image--0 {
+            background-image: url('/assets/images/otherGames/img_1.webp');
+        }
+
+        &-image--1 {
+            background-image: url('/assets/images/otherGames/img_2.webp');
+        }
+
+        &-image--2 {
+            background-image: url('/assets/images/otherGames/img_3.webp');
+        }
+
+        &-image--3 {
+            background-image: url('/assets/images/otherGames/img_4.webp');
+        }
+
+        &-image--4 {
+            background-image: url('/assets/images/otherGames/img_5.webp');
+        }
+
+        &-image--5 {
+            background-image: url('/assets/images/otherGames/img_6.webp');
+        }
+
+        &-image--6 {
+            background-image: url('/assets/images/otherGames/img_7.webp');
+        }
+
+        &-image--7 {
+            background-image: url('/assets/images/otherGames/img_8.webp');
+        }
+
+        &-image--8 {
+            background-image: url('/assets/images/otherGames/img_9.webp');
+        }
+
+        &-image--9 {
+            background-image: url('/assets/images/otherGames/img_10.webp');
+        }
+
+        &-image--10 {
+            background-image: url('/assets/images/otherGames/img_11.webp');
+        }
+
+        &-image--11 {
+            background-image: url('/assets/images/otherGames/img_12.webp');
+        }
+
+        &-image--12 {
+            background-image: url('/assets/images/otherGames/img_13.webp');
+        }
+
+        &-image--13 {
+            background-image: url('/assets/images/otherGames/img_14.webp');
+        }
+
+        &-image--14 {
+            background-image: url('/assets/images/otherGames/img_15.webp');
+        }
+
+        &-image--15 {
+            background-image: url('/assets/images/otherGames/img_16.webp');
+        }
+
+        &-image--16 {
+            background-image: url('/assets/images/otherGames/img_17.webp');
+        }
+
+        &-image--17 {
+            background-image: url('/assets/images/otherGames/img_18.webp');
         }
     }
 
