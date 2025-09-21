@@ -15,7 +15,7 @@ class GameCard extends Component<IProps> {
         <div className={`${styles["game-card__face"]} ${styles["game-card__face--back"]}`}>
           <img src={this.props.image} alt="A kártya hátsó lapján lévő izgalmas kép" />
         </div>
-        <div className={`${styles["game-card__face"]} ${styles["game-card__face--front"]}`}>{this.props.text}</div>
+        <h1 className={`${styles["game-card__face"]} ${styles["game-card__face--front"]}`}>{this.props.text}</h1>
         <button className={styles["next-button"]} type="button">
           <span className={styles["button-text"]}> új </span>
           <span className={styles["button-blob"]}></span>

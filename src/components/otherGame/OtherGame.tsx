@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Link from "next/link";
 import styles from "./OtherGame.module.scss";
 const images = [
   "/assets/images/otherGames/img_1.webp",
@@ -30,11 +31,7 @@ interface GameProps {
 }
 
 class OtherGame extends Component<GameProps> {
-  handleBack = () => {
-    if (typeof window !== 'undefined') {
-      window.location.href = '/mas-ivos-jatekok';
-    }
-  }
+
   getPic(): string {
     // Map titles to image indices
     const titleMap: { [key: string]: number } = {
@@ -70,13 +67,15 @@ class OtherGame extends Component<GameProps> {
               {this.props.subtitle}
             </h2>
             <p className={styles["other-game__container-description-text"]}>{this.props.text}</p>
-            <button className={styles["other-game__container-description-button"]} type="button" onClick={this.handleBack}>
-              <span className={styles["other-game__container-description-button-text"]}> vissza </span>
-              <span className={styles["other-game__container-description-button-layer"]}></span>
-              <span className={styles["other-game__container-description-button-layer"]}></span>
-              <span className={styles["other-game__container-description-button-layer"]}></span>
-              <span className={styles["other-game__container-description-button-layer"]}></span>
-            </button>
+            <Link href="/mas-ivos-jatekok" passHref >
+              <button className={styles["other-game__container-description-button"]}>
+                <span className={styles["other-game__container-description-button-text"]}> vissza </span>
+                <span className={styles["other-game__container-description-button-layer"]}></span>
+                <span className={styles["other-game__container-description-button-layer"]}></span>
+                <span className={styles["other-game__container-description-button-layer"]}></span>
+                <span className={styles["other-game__container-description-button-layer"]}></span>
+              </button>
+            </Link>
           </div>
 
           <div

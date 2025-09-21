@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Link from "next/link";
 import styles from "./Game.module.scss";
 import GameCard from "./GameCard";
 import questionArray from "./questions.json";
@@ -58,22 +59,20 @@ class Game extends Component {
   }
 
 
-  handleBack = () => {
-    if (typeof window !== 'undefined') {
-      window.history.back();
-    }
-  }
+
 
   render() {
     return (
       <div className={styles["game-container"]}>
-        <button className={styles["game-container__back-button"]} onClick={this.handleBack}>
-          <span className={styles["game-container__back-button-text"]}> vissza </span>
-          <span className={styles["game-container__back-button-blob"]}></span>
-          <span className={styles["game-container__back-button-blob"]}></span>
-          <span className={styles["game-container__back-button-blob"]}></span>
-          <span className={styles["game-container__back-button-blob"]}></span>
-        </button>
+        <Link href="/" passHref >
+          <button className={styles["game-container__back-button"]}>
+            <span className={styles["game-container__back-button-text"]}> vissza </span>
+            <span className={styles["game-container__back-button-blob"]}></span>
+            <span className={styles["game-container__back-button-blob"]}></span>
+            <span className={styles["game-container__back-button-blob"]}></span>
+            <span className={styles["game-container__back-button-blob"]}></span>
+          </button>
+        </Link>
         <div
           onClick={this.setOnCardClick}
           style={{ animation: "bounceIn", animationDuration: "1s" }}

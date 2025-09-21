@@ -49,7 +49,7 @@ class Contact extends Component {
       <div className={styles.contact}>
         <div className={styles["contact__shadow"]}>
           <form className={styles["contact__shadow-form"]} onSubmit={this.handleSubmit}>
-            <h1>Í R J &nbsp; N E K Ü N K</h1>
+            <h1 className={styles["contact__shadow-form-title"]}>ÍRJ NEKÜNK</h1>
             <p className={styles["contact__shadow-form-paragraph"]}> Kérdésed vagy javaslatod van? Vedd fel velünk a kapcsolatot!</p>
             <div className={styles["contact__shadow-form-box"]}>
               <label htmlFor="name">Név</label>

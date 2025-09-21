@@ -85,7 +85,7 @@ const OtherGames: React.FC = () => {
                     height={560}
                     className={styles["swiper-image"]}
                   />
-                  <div className={styles["swiper-caption"]}>{slide.caption}</div>
+                  <h1 className={styles["swiper-caption"]}>{slide.caption}</h1>
                 </Link>
               </SwiperSlide>
             ))}
@@ -118,7 +118,7 @@ const OtherGames: React.FC = () => {
                     height={560}
                     className={styles["swiper-image"]}
                   />
-                  <div className={styles["swiper-caption"]}>{slide.caption}</div>
+                  <h1 className={styles["swiper-caption"]}>{slide.caption}</h1>
                 </Link>
               </SwiperSlide>
             ))}

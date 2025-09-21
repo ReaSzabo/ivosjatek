@@ -12,9 +12,19 @@ class Card extends Component<IProps> {
   render() {
     return (
       <div className={styles.card}>
-        <img className={styles["card__image-2d"]} src={this.props.image} alt="A kártya látsó lapján lévő kép" />
-        <img className={styles["card__image-3d"]} src={this.props.imageRemoved} alt="A kártya hátsó lapján lévő mozgó, kiugró kép" />
-        <div className={styles["card__caption"]}>{this.props.caption}</div>
+        <img
+          className={styles["card__image-2d"]}
+          src={this.props.image}
+          alt={`${this.props.caption} kártya előlapja`}
+          loading="lazy"
+        />
+        <img
+          className={styles["card__image-3d"]}
+          src={this.props.imageRemoved}
+          alt={`${this.props.caption} kártya hátlapja`}
+          loading="lazy"
+        />
+        <h1 className={styles["card__caption"]}>{this.props.caption}</h1>
       </div>
     );
   }
