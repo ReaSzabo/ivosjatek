@@ -6,8 +6,8 @@ export default function TRexPage() {
         <>
             <SeoMeta
                 canonical="https://ivosjatek.hu/mas-ivos-jatekok/t-rex"
-                title="T-Rex - Ivós Játék"
-                description="Ivós játék, ahol minden ivásnál a könyöködet az oldaladhoz kell szorítani, mint egy T-Rex. Ha elfelejted, újra innod kell!"
+                title="T-Rex - Ivós játék, vicces szabályokkal és kihívásokkal"
+                description="Ivós játék, ahol minden ivásnál a könyöködet az oldaladhoz kell szorítani, mint egy T-Rex. Ha elfelejted, újra innod kell! Ez a játék garantáltan megnevetteti a társaságot, és vicces pillanatokat hoz minden buliba!"
             />
             <OtherGame
                 title="T-Rex"

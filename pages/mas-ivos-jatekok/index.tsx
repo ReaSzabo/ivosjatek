@@ -6,8 +6,8 @@ export default function MasIvosJatekokIndexPage() {
         <>
             <SeoMeta
                 canonical="https://ivosjatek.hu/mas-ivos-jatekok"
-                title="Még több ivós játék - Ivós Játék"
-                description="Minden kártya kilistázva. A kártyák fel vannak forditva és a választott nyelven megjelennek a kérdések."
+                title="Még több ivós játék - Különleges és klasszikus ivós játékok gyűjteménye"
+                description="Fedezd fel a legjobb ivós játékokat egy helyen! Minden kártya kilistázva, a kártyák fel vannak fordítva, és a választott nyelven jelennek meg a kérdések. Próbálj ki új és klasszikus ivós játékokat, hogy a baráti összejövetelek még emlékezetesebbek legyenek!"
             />
             <OtherGames />
         </>

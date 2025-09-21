@@ -1,12 +1,3 @@
-.other-game__container-image {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.other-game__container-image[data-bg] {
-    background-image: attr(data-bg url);
-}
 .other-game {
     background: url("../../assets/images/menu/backg.webp");
     background-size: cover;
@@ -29,6 +20,17 @@
         box-shadow: rgb(197, 0, 251) 0px 7px 29px 0px;
         animation: slideInLeft;
         animation-duration: 1s;
+
+        &-image {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        &-image[data-bg] {
+            background-image: attr(data-bg url);
+        }
+
 
         &-description {
             height: 90vh;

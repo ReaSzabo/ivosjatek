@@ -8,8 +8,8 @@ export default function BummPage() {
         <>
             <SeoMeta
                 canonical="https://ivosjatek.hu/mas-ivos-jatekok/bumm"
-                title="Bumm - Ivós Játék"
-                description="Az egyik legegyszerűbb ivós játék, ahol a számokat sorban mondjátok, de a 7-et és annak többszöröseit, illetve amiben 7 szerepel, bumm-mal helyettesítitek. Aki hibázik, iszik."
+                title="Bumm - Egyszerű ivós játék, számolós kihívás barátoknak"
+                description="Az egyik legegyszerűbb ivós játék, ahol a számokat sorban mondjátok, de a 7-et és annak többszöröseit, illetve amiben 7 szerepel, bumm-mal helyettesítitek. Aki hibázik, iszik. Ez a játék garantáltan megnevetteti a társaságot, és gyorsan feldobja a hangulatot minden buliban!"
             />
             <OtherGame
                 title="Bumm"

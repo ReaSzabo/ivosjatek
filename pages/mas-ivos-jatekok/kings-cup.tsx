@@ -6,8 +6,8 @@ export default function KingsCupPage() {
         <>
             <SeoMeta
                 canonical="https://ivosjatek.hu/mas-ivos-jatekok/kings-cup"
-                title="Kings Cup - Ivós Játék"
-                description="Kártyás ivós játék, ahol minden laphoz egy szabály tartozik. Húzz egy kártyát, kövesd a szabályt, és igyál!"
+                title="Kings Cup - Kártyás ivós játék, szabályok és tippek"
+                description="Kártyás ivós játék, ahol minden laphoz egy szabály tartozik. Húzz egy kártyát, kövesd a szabályt, és igyál! Fedezd fel a Kings Cup játékot, amely izgalmas feladatokat és sok nevetést hoz minden baráti összejövetelre!"
             />
             <OtherGame
                 title="Kings Cup"
