@@ -27,9 +27,6 @@
             background-repeat: no-repeat;
         }
 
-        &-image[data-bg] {
-            background-image: attr(data-bg url);
-        }
 
 
         &-description {

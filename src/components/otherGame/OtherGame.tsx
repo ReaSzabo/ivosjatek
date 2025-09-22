@@ -30,9 +30,9 @@ interface GameProps {
   text: string;
 }
 
-class OtherGame extends Component<GameProps> {
 
-  getPic(): string {
+class OtherGame extends Component<GameProps> {
+  getPicIndex(): number {
     // Map titles to image indices
     const titleMap: { [key: string]: number } = {
       "Kings Cup": 0,
@@ -53,11 +53,11 @@ class OtherGame extends Component<GameProps> {
       "Társasjátékok": 15,
       "Orosz rulett": 16,
     };
-    const idx = titleMap[this.props.title] ?? 17;
-    return images[idx];
+    return titleMap[this.props.title] ?? 17;
   }
 
   render() {
+    const imageIndex = this.getPicIndex();
     return (
       <div className={styles["other-game"]}>
         <div className={styles["other-game__container"]}>
@@ -79,8 +79,11 @@ class OtherGame extends Component<GameProps> {
           </div>
 
           <div
-            className={styles["other-game__container-image"]}
-            data-bg={this.getPic()}
+            className={
+              styles["other-game__container-image"] +
+              " " +
+              styles[`other-game__container-image--${imageIndex}`]
+            }
           ></div>
         </div>
       </div>
