@@ -23,6 +23,8 @@ export default function SeoMeta({ canonical, description, title }: SeoMetaProps)
             <link rel="canonical" href={canonicalUrl} />
             {/* Favicon */}
             <link rel="icon" href="/favIcon.webp" />
+            {/* Apple Touch Icon */}
+            <link rel="apple-touch-icon" sizes="180x180" href="/favIcon.webp" />
             {/* Manifest */}
             <link rel="manifest" href="/manifest.json" />
             {/* Theme color */}
