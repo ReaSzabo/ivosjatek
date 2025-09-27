@@ -1,5 +1,5 @@
-import SeoMeta from '../../src/components/SeoMeta';
-import OtherGames from '../../src/components/otherGames/OtherGames';
+import SeoMeta from '../../src/components/custom-head/SeoMeta';
+import OtherGames from '../../src/components/other-games-container/OtherGames';
 
 export default function MasIvosJatekokIndexPage() {
     return (

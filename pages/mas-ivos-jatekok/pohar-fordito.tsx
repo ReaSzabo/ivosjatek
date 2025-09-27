@@ -1,6 +1,6 @@
 
-import SeoMeta from '../../src/components/SeoMeta';
-import OtherGame from '../../src/components/otherGame/OtherGame';
+import SeoMeta from '../../src/components/custom-head/SeoMeta';
+import OtherGame from '../../src/components/other-game/OtherGame';
 
 
 export default function FlipCupPage() {

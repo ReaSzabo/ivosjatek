@@ -1,5 +1,5 @@
-import SeoMeta from '../../src/components/SeoMeta';
-import Game from '../../src/drinkingGame/Game';
+import SeoMeta from '../../src/components/custom-head/SeoMeta';
+import Game from '../../src/components/drinking-game/Game';
 
 export default function JatekPage() {
     return (

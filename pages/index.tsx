@@ -1,5 +1,5 @@
-import Menu from '../src/menu/Menu';
-import SeoMeta from '../src/components/SeoMeta';
+import Menu from '../src/components/menu/Menu';
+import SeoMeta from '../src/components/custom-head/SeoMeta';
 
 export default function Home() {
     return (

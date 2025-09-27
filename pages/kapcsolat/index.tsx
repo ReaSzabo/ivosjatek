@@ -1,5 +1,5 @@
-import SeoMeta from '../../src/components/SeoMeta';
-import Contact from '../../src/components/contact/Contact';
+import SeoMeta from '../../src/components/custom-head/SeoMeta';
+import Contact from '../../src/components/contact-page/Contact';
 
 export default function KapcsolatPage() {
     return (
