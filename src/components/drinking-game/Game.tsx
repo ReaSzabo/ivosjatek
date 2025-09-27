@@ -6,7 +6,7 @@ import questionArray from "./questions.json";
 
 
 // Use public asset paths for Next.js
-const backfaceImages = Array.from({ length: 98 }, (_, i) => `/assets/images/game/backface_images/backface_${i + 1}.webp`);
+const backfaceImages = Array.from({ length: 98 }, (_, i) => `/assets/images/game/backfaces/backface-${i + 1}.webp`);
 
 
 class Game extends Component {

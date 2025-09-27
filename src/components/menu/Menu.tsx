@@ -12,21 +12,21 @@ class Menu extends Component {
           <Link href="/mas-ivos-jatekok" >
             <Card
               image="/assets/images/menu/cat.webp"
-              imageRemoved="/assets/images/menu/catRemoved.webp"
+              imageRemoved="/assets/images/menu/cat-removed.webp"
               caption="Más Ivós Játékok"
             />
           </Link>
           <Link href="/jatek" >
             <Card
               image="/assets/images/menu/lion.webp"
-              imageRemoved="/assets/images/menu/lionRemoved.webp"
+              imageRemoved="/assets/images/menu/lion-removed.webp"
               caption="Ivós Játék"
             />
           </Link>
           <Link href="/kapcsolat" >
             <Card
               image="/assets/images/menu/dog.webp"
-              imageRemoved="/assets/images/menu/dogRemoved.webp"
+              imageRemoved="/assets/images/menu/dog-removed.webp"
               caption="Kapcsolat"
             />
           </Link>
