@@ -1,4 +1,6 @@
 import { Component } from "react";
+import { toast, Toaster } from "sonner"
+
 import styles from "./Contact.module.scss";
 
 class Contact extends Component {
@@ -13,19 +15,19 @@ class Contact extends Component {
     const termsAccepted = form.querySelector('input[type="checkbox"]')?.checked;
 
     if (!name) {
-      alert("A név mező kitöltése kötelező.");
+      toast(<div className={styles["toaster"]} > A név mező kitöltése kötelező.</ div>)
       return;
     }
     if (!email) {
-      alert("Az e-mail mező kitöltése kötelező.");
+      toast(<div className={styles["toaster"]} > A e-mail mező kitöltése kötelező.</ div>)
       return;
     }
     if (!message) {
-      alert("Az üzenet mező érdemi kitöltése szükséges a sikeres kapcsolatfelvételhez. Ha szeretnél nekünk üzenni, kérjük, pótold ezt a hiányosságot! :)");
+      toast(<div className={styles["toaster"]} > Az üzenet mező érdemi kitöltése szükséges a sikeres kapcsolatfelvételhez. Ha szeretnél nekünk üzenni, kérjük, pótold ezt a hiányosságot! :) </ div>)
       return;
     }
     if (!termsAccepted) {
-      alert("A felhasználási feltételek elfogadása kötelező.");
+      toast(<div className={styles["toaster"]} > A felhasználási feltételek elfogadása kötelező. </ div>)
       return;
     }
 
@@ -37,80 +39,87 @@ class Contact extends Component {
       },
     })
       .then((response) => {
-        alert("Az üzenetet sikeresen elküldted. Köszönjük! Igyekszünk a lehető leghamarabb reagálni rá. :)");
+        toast(<div className={styles["toaster"]} >Az üzenetet sikeresen elküldted. Köszönjük! Igyekszünk a lehető leghamarabb reagálni rá. :)</ div>)
+        form.reset();
       })
       .catch((error) => {
-        alert("nem sikerült");
+        toast(<div className={styles["toaster"]} >Az üzenet elküldése nem sikerült :(</ div>)
       });
   };
 
   render() {
-    return (
-      <div className={styles.contact}>
-        <div className={styles["contact__shadow"]}>
-          <form className={styles["contact__shadow-form"]} onSubmit={this.handleSubmit}>
-            <h1 className={styles["contact__shadow-form-title"]}>ÍRJ NEKÜNK</h1>
-            <h2 className={styles["contact__shadow-form-paragraph"]}> Kérdésed vagy javaslatod van? Vedd fel velünk a kapcsolatot!</h2>
-            <div className={styles["contact__shadow-form-box"]}>
+    return (<>
+      <div className={styles["container"]}>
+        <div className={styles["contact"]}>
+          <form className={styles["contact__form"]} onSubmit={this.handleSubmit}>
+            <h1 className={styles["contact__form-title"]}>
+              ÍRJ NEKÜNK
+            </h1>
+            <h2 className={styles["contact__form-subtitle"]}>
+              Kérdésed vagy javaslatod van ? <br /> Vedd fel velünk a kapcsolatot !
+            </h2>
+            <div className={styles["contact__form-label"]}>
               <label htmlFor="name">Név</label>
             </div>
             <input
-              className={styles["contact__shadow-form-input"]}
+              className={styles["contact__form-input"]}
               type="text"
               name="name"
               placeholder="ide írd a neved"
             />
             <br />
-            <div className={styles["contact__shadow-form-box"]}>
+            <div className={styles["contact__form-label"]}>
               <label htmlFor="email">E-mail</label>
             </div>
             <input
-              className={styles["contact__shadow-form-input"]}
+              className={styles["contact__form-input"]}
               type="email"
               name="email"
               placeholder="adj meg egy érvényes e-mail címet"
             />
             <br />
-            <div className={styles["contact__shadow-form-box"]}>
+            <div className={styles["contact__form-label"]}>
               <label htmlFor="message">Üzenet</label>
             </div>
             <textarea
-              className={styles["contact__shadow-form-message"]}
+              className={styles["contact__form-message"]}
               name="message"
               placeholder="ide jöhet az üzeneted" />
             <br />
-            <div className={styles["contact__shadow-form-tos"]}>
-              <label className={styles["contact__shadow-form-tos-checkbox"]}>
+            <div className={styles["contact__form-tos"]}>
+              <label className={styles["contact__form-tos-checkbox"]}>
                 <input type="checkbox" />
-                <span className={styles["contact__shadow-form-tos-checkbox-checkmark"]}></span>
-                <span className={styles["contact__shadow-form-tos-checkbox-text"]}>
+                <span className={styles["contact__form-tos-checkbox-checkmark"]}></span>
+                <span className={styles["contact__form-tos-checkbox-text"]}>
                   Persze, elfogadom a felhasználási feltételeket !
                 </span>
               </label>
             </div>
             <br />
-            <div className={styles["contact__shadow-form-button-holder"]}>
+            <div className={styles["contact__form-button-holder"]}>
+              <button className={styles["contact__form-button-holder-button"]} type="submit">
+                <span className={styles["contact__form-button-holder-button-text"]}> küldés </span>
+                <span className={styles["contact__form-button-holder-button-blob"]}></span>
+                <span className={styles["contact__form-button-holder-button-blob"]}></span>
+                <span className={styles["contact__form-button-holder-button-blob"]}></span>
+                <span className={styles["contact__form-button-holder-button-blob"]}></span>
+              </button>
               <a href="/">
-                <button className={styles["contact__shadow-form-button-holder-button"]} type="button">
-                  <span className={styles["contact__shadow-form-button-holder-button-text"]}> vissza </span>
-                  <span className={styles["contact__shadow-form-button-holder-button-blob"]}></span>
-                  <span className={styles["contact__shadow-form-button-holder-button-blob"]}></span>
-                  <span className={styles["contact__shadow-form-button-holder-button-blob"]}></span>
-                  <span className={styles["contact__shadow-form-button-holder-button-blob"]}></span>
+                <button className={styles["contact__form-button-holder-button"]} type="button">
+                  <span className={styles["contact__form-button-holder-button-text"]}> vissza </span>
+                  <span className={styles["contact__form-button-holder-button-blob"]}></span>
+                  <span className={styles["contact__form-button-holder-button-blob"]}></span>
+                  <span className={styles["contact__form-button-holder-button-blob"]}></span>
+                  <span className={styles["contact__form-button-holder-button-blob"]}></span>
                 </button>
               </a>
-              <button className={styles["contact__shadow-form-button-holder-button"]} type="submit">
-                <span className={styles["contact__shadow-form-button-holder-button-text"]}> küldés </span>
-                <span className={styles["contact__shadow-form-button-holder-button-blob"]}></span>
-                <span className={styles["contact__shadow-form-button-holder-button-blob"]}></span>
-                <span className={styles["contact__shadow-form-button-holder-button-blob"]}></span>
-                <span className={styles["contact__shadow-form-button-holder-button-blob"]}></span>
-              </button>
             </div>
           </form>
-          <div className={styles["contact__shadow-image"]}></div>
+          <img src="/assets/images/contact/rabbits.webp" className={styles["contact__image"]}></img>
         </div>
       </div>
+      <Toaster />
+    </>
     );
   }
 }

@@ -31,3 +31,6 @@ fs.readdirSync(OUT_DIR).forEach(file => {
 if (fs.existsSync(CNAME_SRC)) {
     fs.copyFileSync(CNAME_SRC, CNAME_DEST);
 }
+
+// Remove the out directory at the end
+fs.rmSync(OUT_DIR, { recursive: true, force: true });

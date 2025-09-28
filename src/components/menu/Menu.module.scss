@@ -3,15 +3,17 @@
     background-size: cover;
     font-family: "Montserrat", sans-serif;
     font-variant-caps: all-small-caps;
+    height: 100vh;
+    min-height: 100%;
 
     h1 {
         position: absolute;
-        left: 10px;
+        right: 10px;
         top: 10px;
         font-size: 16px;
         color: rgb(221, 124, 173);
         text-align: center;
-        width: 100%;
+        width: 95%;
     }
 
     &__elements {
