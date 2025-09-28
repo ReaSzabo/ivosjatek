@@ -1,12 +1,13 @@
 import { Component } from "react";
 import styles from "./Menu.module.scss";
-import Card from "../menu-card/Card";
+import Card from "../menu-card/MenuCard";
 import Link from 'next/link';
 
 class Menu extends Component {
   render() {
     return (
       <div className={styles["menu-container"]}>
+        <h1>online ivós játék</h1>
         <div className={styles["menu-container__elements"]}>
 
           <Link href="/mas-ivos-jatekok" >

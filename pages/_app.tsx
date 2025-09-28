@@ -1,4 +1,5 @@
 import '../src/styles/globals.scss';
+
 import CustomCookieConsent from '../src/components/cookie-consent/CustomCookieConsent';
 import type { AppProps } from 'next/app';
 

@@ -1,6 +1,18 @@
 .menu-container {
     background: url("/assets/images/common/background.webp");
     background-size: cover;
+    font-family: "Montserrat", sans-serif;
+    font-variant-caps: all-small-caps;
+
+    h1 {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-size: 16px;
+        color: rgb(221, 124, 173);
+        text-align: center;
+        width: 100%;
+    }
 
     &__elements {
         height: 100vh;
@@ -8,11 +20,7 @@
         justify-content: center;
         flex-direction: row;
         align-items: center;
-        margin: 0;
-        color: rgb(0, 0, 0);
-        z-index: 0;
-        font-family: "Montserrat", sans-serif;
-        font-variant-caps: all-small-caps;
+        gap: 20px;
     }
 
     @media (max-width: 1060px) {

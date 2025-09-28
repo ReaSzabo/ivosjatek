@@ -1,6 +1,5 @@
 import { Component } from "react";
-import styles from "./Card.module.scss";
-import 'animate.css';
+import styles from "./MenuCard.module.scss";
 
 interface IProps {
   image: any,
@@ -8,7 +7,7 @@ interface IProps {
   caption: string
 }
 
-class Card extends Component<IProps> {
+class MenuCard extends Component<IProps> {
   render() {
     return (
       <div className={styles.card}>
@@ -24,10 +23,10 @@ class Card extends Component<IProps> {
           alt={`${this.props.caption} kártya hátlapja`}
           loading="lazy"
         />
-        <h1 className={styles["card__caption"]}>{this.props.caption}</h1>
+        <h2 className={styles["card__caption"]}>{this.props.caption}</h2>
       </div>
     );
   }
 }
 
-export default Card;
+export default MenuCard;

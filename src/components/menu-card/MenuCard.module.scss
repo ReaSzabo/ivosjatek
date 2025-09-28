@@ -5,27 +5,23 @@
     border: 2px solid rgb(255, 241, 255);
     box-shadow: rgb(197, 0, 251) 0px 7px 29px 0px;
     border-radius: 8px;
-    margin: 10px;
-    cursor: pointer;
     color: rgb(2, 164, 209);
-    font-family: "Montserrat", sans-serif;
-    font-variant-caps: all-small-caps;
-    font-weight: 300;
     background: rgb(45, 42, 42);
     letter-spacing: 1px;
+    cursor: pointer;
 
     &__image-2d {
         opacity: 100%;
+    }
+
+    &:hover &__image-2d {
+        opacity: 0;
     }
 
     &__image-3d {
         opacity: 0;
         transform: translateY(0);
         transition: 0.1s;
-    }
-
-    &:hover &__image-2d {
-        opacity: 0;
     }
 
     &:hover &__image-3d {
@@ -58,12 +54,53 @@
         color: rgb(236, 182, 3);
     }
 
-    @media (min-width: 1061px) {
-        animation: swing;
+    img {
+        width: 329px;
+        height: 495px;
+        border-radius: 7px;
+        position: absolute;
+
+        @media (max-width: 1060px) {
+            display: none;
+        }
+    }
+}
+
+
+// Large screens
+@media (min-width: 1061px) {
+    .card {
+        animation-name: swing;
         animation-duration: 2s;
+        animation-fill-mode: both;
+    }
+}
+
+@keyframes swing {
+    20% {
+        transform: rotate3d(0, 0, 1, 5deg);
     }
 
-    @media (max-width: 1060px) {
+    40% {
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+
+    60% {
+        transform: rotate3d(0, 0, 1, 5deg);
+    }
+
+    80% {
+        transform: rotate3d(0, 0, 1, -5deg);
+    }
+
+    100% {
+        transform: rotate3d(0, 0, 1, 0deg);
+    }
+}
+
+// Small screens
+@media (max-width: 1060px) {
+    .card {
         width: 334px;
         height: 45px;
         visibility: hidden;
@@ -90,17 +127,6 @@
 
         &:hover &__caption {
             width: 334px;
-        }
-    }
-
-    img {
-        width: 329px;
-        height: 495px;
-        border-radius: 7px;
-        position: absolute;
-
-        @media (max-width: 1060px) {
-            display: none;
         }
     }
 }
