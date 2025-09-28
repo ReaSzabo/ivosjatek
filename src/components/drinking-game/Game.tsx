@@ -64,6 +64,8 @@ class Game extends Component {
   render() {
     return (
       <div className={styles["game-container"]}>
+        <h1>online ivós játék</h1>
+        <h2>18+ felnőtt ivós játék</h2>
         <Link href="/" passHref >
           <button className={styles["game-container__back-button"]}>
             <span className={styles["game-container__back-button-text"]}> vissza </span>

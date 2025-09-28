@@ -47,6 +47,8 @@ const OtherGames: React.FC = () => {
 
   return (
     <div className={styles["background-container"]}>
+      <h1>Még több ivós játék</h1>
+      <h2>A legjobb ivós játékokat egy helyen</h2>
       <Link href="/">
         <button type="button" className={styles["back-button"]}>
           <span className={styles["back-button__text"]}>vissza</span>
@@ -85,7 +87,7 @@ const OtherGames: React.FC = () => {
                     height={560}
                     className={styles["swiper-image"]}
                   />
-                  <h1 className={styles["swiper-caption"]}>{slide.caption}</h1>
+                  <p className={styles["swiper-caption"]}>{slide.caption}</p>
                 </Link>
               </SwiperSlide>
             ))}
@@ -118,7 +120,7 @@ const OtherGames: React.FC = () => {
                     height={560}
                     className={styles["swiper-image"]}
                   />
-                  <h1 className={styles["swiper-caption"]}>{slide.caption}</h1>
+                  <p className={styles["swiper-caption"]}>{slide.caption}</p>
                 </Link>
               </SwiperSlide>
             ))}

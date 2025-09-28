@@ -13,3 +13,9 @@ html body {
 .swiper-slide-shadow-right {
     display: none;
 }
+
+@media (max-width: 1235px) {
+    .swiper-slide-active {
+        zoom: 0.99;
+    }
+}

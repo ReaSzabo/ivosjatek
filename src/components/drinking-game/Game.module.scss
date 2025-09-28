@@ -9,6 +9,21 @@
         padding: 0;
     }
 
+    h1,
+    h2 {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 16px;
+        color: rgb(221, 124, 173);
+        text-align: center;
+        width: 95%;
+    }
+
+    h2 {
+        top: 30px;
+    }
+
     background: url("/assets/images/common/background.webp");
     background-size: cover;
     display: flex;

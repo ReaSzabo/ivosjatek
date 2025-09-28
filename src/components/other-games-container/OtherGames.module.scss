@@ -11,6 +11,22 @@
     font-weight: 300;
     flex-direction: column;
     letter-spacing: 3px;
+    overflow: hidden;
+
+    h1,
+    h2 {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        font-size: 16px;
+        color: rgb(221, 124, 173);
+        text-align: center;
+        width: 95%;
+    }
+
+    h2 {
+        top: 30px;
+    }
 
     .back-button {
         position: absolute;
@@ -180,7 +196,7 @@
         .cards-container {
             padding: 0;
             min-height: 1200px;
-            overflow: auto;
+            overflow: hidden;
         }
     }
 }
