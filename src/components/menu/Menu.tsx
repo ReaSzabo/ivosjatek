@@ -7,7 +7,7 @@ class Menu extends Component {
   render() {
     return (
       <div className={styles["menu-container"]}>
-        <h1>online ivós játék</h1>
+        <h1>Ivós Játék - Online Ivós Kártyajáték,</h1>
         <div className={styles["menu-container__elements"]}>
 
           <Link href="/mas-ivos-jatekok" >
